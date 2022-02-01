@@ -1,0 +1,43 @@
+@import url(/utilities-css/colors.css);
+.alert-container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "side head head head head head head head head"
+    "side .... .... .... ....  .... .... .... ...."
+    "side .... .... .... ....  .... .... .... ...."
+    "side .... .... .... ....  .... .... .... ...."
+    "side .... .... .... ....  .... .... .... ...."
+    "side .... .... .... ....  .... .... .... ...."
+    "side .... .... .... ....  .... .... .... ...."
+    "side .... .... .... ....  .... .... .... ...."
+    "side .... .... .... ....  .... .... .... ...."
+    ;
+
+}
+
+.alert-header{
+    width: 100%;
+    grid-area: head;
+   
+}
+.alert-sidebar{
+    width: 15rem;
+    grid-area: side;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+}
+.link{
+    text-decoration: none;
+    width: 100%;
+    margin-right: 0%;
+}
+.link:hover{
+    background-color: var(--grey-900);
+    opacity: 0.5;
+    
+}
