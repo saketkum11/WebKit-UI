@@ -3,19 +3,25 @@
     padding: 0rem;
     margin: 0rem;
 }
-
+/*height*/
+.h-0{
+    height: 10rem;
+}
+.h-1{
+    height: auto;
+}
 /* width */
-.wd-50{
+.wt-50{
     width: 50%;
 
 }
-.wd-70{
+.wt-70{
     width: 70%;
 }
-.wd-80{
+.wt-80{
     width: 80%;
 }
-.wd-100{
+.wt-100{
     width: 100%;
 }
 
