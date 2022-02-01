@@ -1,9 +1,9 @@
 @import url(/utilities-css/colors.css);
-.alert-container{
+.avatar-container{
     width: 100%;
     display: grid;
     grid-template-areas: 
-    "side head head head head head head head "
+    "side .... .... .... .... .... .... .... "
     "side .... .... .... ....  .... .... .... "
     "side .... .... .... ....  .... .... .... "
     "side .... .... .... ....  .... .... .... "
@@ -14,11 +14,9 @@
     "side .... .... .... ....  .... .... .... "
     ;
 }
-.alert-header{
-    width: 100%;
-    grid-area: head;   
-}
-.alert-sidebar{  
+
+.avatar-sidebar{  
+   height: 100vh;
    grid-area: side;
 }
 .wrapper {   
@@ -30,11 +28,22 @@
 }
 .link{
     text-decoration: none;
-    width: 100%;
-    margin-right: 0%;
+    width: 100%;  
 }
 .link:hover{
     background-color: var(--grey-800);
     opacity: 0.5;
     border-radius: var(--bd-r-3);    
+}
+.avatar-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar{
+    border: 0.2rem solid var(--grey-200);
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;   
 }
