@@ -44,9 +44,6 @@
 
 
 }
-
-
-
 .rounded-none {
     border-radius: var(--bd-r-1);
 }
@@ -238,19 +235,6 @@
     padding-top: var(--padding-11);
     padding-bottom: var(--padding-11);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* margin*/
 .m-auto {
     margin: 0 auto;
@@ -363,7 +347,6 @@
     margin-right: var(--margin-11);
     margin-left: var(--margin-11);
 }
-
 /* margin y-axis*/
 
 .m-y-0 {
@@ -420,7 +403,6 @@
     margin-top: var(--margin-10);
     margin-bottom: var(--margin-10);
 }
-
 .m-y-11 {
     margin-top: var(--margin-11);
     margin-bottom: var(--margin-11);
