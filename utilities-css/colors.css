@@ -106,6 +106,89 @@
 
 }
 
+.bg-pink-0 {
+    background-color: var(--pink-50);
+}
+
+.bg-pink-1 {
+    background-color: var(--pink-100);
+}
+
+.bg-pink-2 {
+    background-color: var(--pink-200);
+}
+
+.bg-pink-3 {
+    background-color: var(--pink-300);
+}
+
+.bg-pink-4 {
+    background-color: var(--pink-400);
+}
+
+.bg-pink-5 {
+    background-color: var(--pink-500);
+}
+
+.bg-pink-6 {
+    background-color: var(--pink-600);
+
+}
+
+.bg-pink-7 {
+    background-color: var(--pink-700);
+}
+
+.bg-pink-8 {
+    background-color: var(--pink-800);
+}
+
+.bg-pink-9 {
+    background-color: var(--pink-900);
+}
+/*  purple */
+.bg-purple-0 {
+    background-color: var(--purple-50);
+}
+
+.bg-purple-1 {
+    background-color: var(--purple-100);
+}
+
+.bg-purple-2 {
+    background-color: var(--purple-200);
+}
+
+.bg-purple-3 {
+    background-color: var(--purple-300);
+}
+
+.bg-purple-4 {
+    background-color: var(--purple-400);
+}
+
+.bg-purple-5 {
+    background-color: var(--purple-500);
+}
+
+.bg-purple-6 {
+    background-color: var(--purple-600);
+
+}
+
+.bg-purple-7 {
+    background-color: var(--purple-700);
+}
+
+.bg-purple-8 {
+    background-color: var(--purple-800);
+}
+
+.bg-purple-9 {
+    background-color: var(--purple-900);
+}
+
+/*  black color*/
 .bg-black-9 {
     background-color: var(--grey-900);
 }
@@ -147,7 +230,7 @@
     background-color: var(--grey-50);
 }
 
-/* blue back ground*/
+/* purple back ground*/
 
 .bg-blue-0 {
     background-color: var(--blue-50);
