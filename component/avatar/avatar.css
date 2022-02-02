@@ -1,11 +1,16 @@
 @import url(/utilities-css/colors.css);
 .container{
     max-width: 80rem;
-    overflow-y:auto;
+    height: 100vh;
+    overflow-y:  hidden;
 }
 .side{
-    width: 14rem;
+    width: 25rem;
     
+}
+
+.avatar-head{
+    border-bottom: 1px solid var(--grey-700);
 }
 .links{
     text-decoration: none;
@@ -13,7 +18,6 @@
 .links:hover{
     background-color: var(--grey-700);
     opacity: 0.5;
-
 }
 .content{
     max-width: 37.5rem;

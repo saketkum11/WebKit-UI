@@ -83,7 +83,7 @@
     justify-content: space-between;
 }
 
-.align-center {
+.items-center {
     align-items: center;
 }
 
@@ -96,4 +96,10 @@
 }
 .border-grey{
     border: 4px solid var(--grey-300);
+}
+.overflow-hide{
+    overflow: hidden;
+}
+.overflow-auto{
+    overflow: auto;
 }
