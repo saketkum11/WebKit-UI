@@ -28,7 +28,6 @@
 }
 .avatar-content{   
     grid-area: content;
-    height: 100vh;
 }
 .avatar{
     border: 0.2rem solid var(--grey-300);
