@@ -14,40 +14,21 @@
     "side content content content content  content"
     ;
 }
-
 .avatar-sidebar{  
    height: 100vh;
    grid-area: side;
 }
-.wrapper {   
-    
-    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;    
-}
-.link{
-    
-    text-decoration: none;
-      
+.link{ 
+    text-decoration: none;     
 }
 .link:hover{
     background-color: var(--grey-800);
     opacity: 0.5;
     border-radius: var(--bd-r-3);    
 }
-.avatar-content{
-    
+.avatar-content{   
     grid-area: content;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.avatar-img{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
 }
 .avatar{
     border: 0.2rem solid var(--grey-300);
