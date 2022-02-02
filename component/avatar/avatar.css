@@ -17,10 +17,48 @@
     background-color: var(--grey-700);
     opacity: 0.5;
 }
-
-@media screen and (max:950px) {
-    
+::-webkit-scrollbar {
+    width: 8px;
 }
-@media  screen and (max:500px){
-    
+::-webkit-scrollbar-track {
+    background: var(--grey-700);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--grey-700);
+}
+@media screen and (max-width:1280px) {
+
+    .avatar-sidebar{
+        width: 14rem;
+        font-size: 0.75rem;
+    }
+    .text{
+        font-size: 0.75rem;
+    }
+    .avatar-content{
+        margin-left:1rem;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+}
+@media screen and (max-width:600px) {
+
+    .avatar-sidebar {
+        width: 14rem;
+        font-size: 0.75rem;
+    }
+    .avatar-content {
+        max-width: 100%;
+        padding-left: 1rem;
+        margin-left: 2rem;
+        font-size: 0.75rem;
+        overflow: hidden;
+    }
+    .code {
+        max-width: 100%;
+        overflow: hidden; 
+       margin-left: 2rem;
+
+    }
 }
