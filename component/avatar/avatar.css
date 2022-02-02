@@ -4,11 +4,9 @@
     height: 100vh;
     overflow-y:  hidden;
 }
-.side{
-    width: 25rem;
-    
+.avatar-sidebar{
+    height: 100%;
 }
-
 .avatar-head{
     border-bottom: 1px solid var(--grey-700);
 }
@@ -19,9 +17,4 @@
     background-color: var(--grey-700);
     opacity: 0.5;
 }
-.content{
-    max-width: 37.5rem;
-}
-.frame{
-    width: auto;
-}
+

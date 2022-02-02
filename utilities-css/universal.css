@@ -17,9 +17,11 @@
     height: 100%;
 }
 /* width */
+.wt-30{
+    width: 30%;
+}
 .wt-50{
     width: 50%;
-
 }
 .wt-70{
     width: 70%;
@@ -30,7 +32,7 @@
 .wt-100{
     width: 100%;
 }
-
+/* size image*/
 .sm{
     width: 2rem;
     height: 2rem;
