@@ -6,8 +6,9 @@
     --fs-1: 3rem;
     --fs-2: 2rem;
     --fs-3: 1.5rem;
-    --fs-4: 1rem;
-    --fs-5: 0.5rem;
+    --fs-4: 1.25rem;
+    --fs-5: 1rem;
+    --fs-6: 0.5rem;
 
     /* line height */
 
@@ -41,13 +42,16 @@
 .text-m {
     font-size: var(--fs-3);
 }
-
-.text-s {
+.text-xm{
     font-size: var(--fs-4);
 }
 
-.text-xs {
+.text-s {
     font-size: var(--fs-5);
+}
+
+.text-xs {
+    font-size: var(--fs-6);
 }
 
 
