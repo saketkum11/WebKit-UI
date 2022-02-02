@@ -1,38 +1,23 @@
 @import url(/utilities-css/colors.css);
-.avatar-container{
-    width: 100%;
-   
-    display: grid;
-    grid-template-areas: 
-    "side content content content content  content"
-    "side content content content content  content"
-    "side content content content content  content"
-    "side content content content content  content"
-    "side content content content content  content"
-    "side content content content content  content"
-    "side content content content content  content"
-    "side content content content content  content"
-    "side content content content content  content"
-    ;
+.container{
+    max-width: 80rem;
+    overflow-y:auto;
 }
-.avatar-sidebar{  
-   height: 100vh;
-   grid-area: side;
+.side{
+    width: 14rem;
+    
 }
-.link{ 
-    text-decoration: none;     
+.links{
+    text-decoration: none;
 }
-.link:hover{
-    background-color: var(--grey-800);
+.links:hover{
+    background-color: var(--grey-700);
     opacity: 0.5;
-    border-radius: var(--bd-r-3);    
+
 }
-.avatar-content{   
-    grid-area: content;
+.content{
+    max-width: 37.5rem;
 }
-.avatar{
-    border: 0.2rem solid var(--grey-300);
-    width: 4rem;
-    height: 4rem;
-    object-fit: cover;   
+.frame{
+    width: auto;
 }

@@ -3,12 +3,18 @@
     padding: 0rem;
     margin: 0rem;
 }
+.object-content{
+    object-fit: cover;
+}
 /*height*/
 .h-0{
     height: 10rem;
 }
 .h-1{
     height: auto;
+}
+.h-2{
+    height: 100%;
 }
 /* width */
 .wt-50{
@@ -87,4 +93,7 @@
 
 .items-end {
     align-items: flex-end;
+}
+.border-grey{
+    border: 4px solid var(--grey-300);
 }
