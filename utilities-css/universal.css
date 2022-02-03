@@ -108,3 +108,9 @@
 .cursor{
   cursor: pointer;
 }
+.position-rel{
+    position: relative;
+}
+.position-ab{
+    position: absolute;
+}
