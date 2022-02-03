@@ -105,3 +105,6 @@
 .overflow-auto{
     overflow: auto;
 }
+.cursor{
+  cursor: pointer;
+}
