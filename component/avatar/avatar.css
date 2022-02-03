@@ -8,9 +8,7 @@
 .avatar-sidebar{
     height: 100%;
 }
-.avatar-head{
-    border-bottom: 1px solid var(--grey-700);
-}
+
 .links{
     text-decoration: none;
 }
