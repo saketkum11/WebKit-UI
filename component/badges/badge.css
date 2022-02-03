@@ -1,8 +1,62 @@
 
-.icon-badge{
-    position: relative;
+.icon{
+    border: 0.125rem solid black;
 }
-.badge{
+.icon-badge {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.badge {
     position: absolute;
-    top: 5rem;
+    
+    background-color: #F44336;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+
+}
+.width{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.width-two{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.width-three{
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.top{
+    top: 1px;
+}
+.right{
+    right: 1px;
+}
+.top-one{
+    top:-1px;
+    right: -1px;
+}
+.top-two{
+    top: -6px;
+    right: -6px;
+}
+
+.small-font {
+    font-size: x-small;
 }
