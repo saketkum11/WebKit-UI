@@ -4,22 +4,20 @@
 .icon-badge {
     border: none;
     outline: none;
-    width: 50px;
-    height: 40px;
+    width: 3rem;
+    height: 2.5rem;
 }
 .badge {
-    position: absolute; 
     background-color: #F44336;
     width: 20px;
     height: 20px;
-    border-radius: 50%;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid white;
 }
-.width{
+.width-one{
     width: 1.25rem;
     height: 1.25rem;
 }
@@ -28,13 +26,11 @@
     height: 1.5rem;
 }
 .width-three{
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
-.top{
+.top-0{
     top: 1px;
-}
-.right{
     right: 1px;
 }
 .top-one{
@@ -45,26 +41,24 @@
     top: -6px;
     right: -6px;
 }
-
 .small-font {
     font-size: x-small;
 }
 .badge-avatar{
     width: 0.5rem;
     height: 0.5rem;
-    
     border-radius: 50%;
     right: 4px;
     bottom: 7px;
     border: 1px solid white;
 }
-.top-4{
+.top-four{
     width: 0.625rem;
     height: 0.625rem;
-    right: 6px;
-    bottom: 9px;
+    right: 0.375rem;
+    bottom: 0.5625rem;
 }
-.top-5 {
+.top-five{
     width: 0.725rem;
     height: 0.725rem;
     right: 0.375rem;
