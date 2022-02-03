@@ -29,8 +29,48 @@
 
     /* top  */
 
-    --top-0:  
+    --top-8:2rem;
+    --top-7:1.75rem;
+    --top-6:1.5rem;
+    --top-5:1.25rem;
+    --top-4:1rem;
+    --top-3:0.75rem;
+    --top-2:0.5rem;
+    --top-1:0.25rem;
+    --top-0:0rem;
 
+    /* buttom*/ 
+    --buttom-8:2rem;
+    --buttom-7:1.75rem;
+    --buttom-6:1.5rem;
+    --buttom-5:1.25rem;
+    --buttom-4:1rem;
+    --buttom-3:0.75rem;
+    --buttom-2:0.5rem;
+    --buttom-1:0.25rem;
+    --buttom-0:0rem;
+      
+    /* right*/
+    --right-8:2rem;
+    --right-7:1.75rem;
+    --right-6:1.5rem;
+    --right-5:1.25rem;
+    --right-4:1rem;
+    --right-3:0.75rem;
+    --right-2:0.5rem;
+    --right-1:0.25rem;
+    --right-0:0rem;
+
+    /*left*/
+    --left-8:2rem;
+    --left-7:1.75rem;
+    --left-6:1.5rem;
+    --left-5:1.25rem;
+    --left-4:1rem;
+    --left-3:0.75rem;
+    --left-2:0.5rem;
+    --left-1:0.25rem;
+    --left-0:0rem;
 
 
 }
@@ -193,6 +233,8 @@
 .items-end {
     align-items: flex-end;
 }
+
+/* position*/
 .border-grey{
     border: 4px solid var(--grey-300);
 }
