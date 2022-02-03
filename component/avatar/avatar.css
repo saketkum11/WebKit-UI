@@ -3,16 +3,12 @@
 .container{
     max-width: 80rem;
     height: 100%;
-   
-   
 }
 .avatar-sidebar{
     height: 100%;
 }
-
 .links{
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 .links:hover{
     background-color: var(--grey-700);

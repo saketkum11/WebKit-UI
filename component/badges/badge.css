@@ -1,23 +1,12 @@
-
 .icon{
     border: 0.125rem solid black;
-    
-    
 }
 .icon-badge {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
     border: none;
     outline: none;
     width: 50px;
     height: 40px;
-    position: relative;
-    border-radius: 50%;
 }
-
 .badge {
     position: absolute; 
     background-color: #F44336;

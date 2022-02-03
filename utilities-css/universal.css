@@ -3,18 +3,115 @@
     padding: 0rem;
     margin: 0rem;
 }
+:root{
+    /*height*/
+
+    --height-8:2rem;
+    --height-7:1.75rem;
+    --height-6:1.5rem;
+    --height-5:1.25rem;
+    --height-4:1rem;
+    --height-3:0.75rem;
+    --height-2:0.5rem;
+    --height-1:0.25rem;
+    --height-0:0rem;
+
+    /* width  */
+    --width-8:2rem;
+    --width-7:1.75rem;
+    --width-6:1.5rem;
+    --width-5:1.25rem;
+    --width-4:1rem;
+    --width-3:0.75rem;
+    --width-2:0.5rem;
+    --width-1:0.25rem;
+    --width-0:0rem;
+
+    /* top  */
+
+    --top-0:  
+
+
+
+}
 .object-content{
     object-fit: cover;
 }
-/*height*/
-.h-0{
-    height: 10rem;
+/* fixed height*/
+
+.h-fixed-0{
+    height: var(--height-0);
 }
-.h-1{
+.h-fixed-1 {
+    height: var(--height-1);
+}
+.h-fixed-2 {
+    height: var(--height-2);
+}
+.h-fixed-3 {
+    height: var(--height-3);
+}
+.h-fixed-4 {
+    height: var(--height-4);
+}
+.h-fixed-5 {
+    height: var(--height-5);
+}
+.h-fixed-6 {
+    height: var(--height-6);
+}
+.h-fixed-7 {
+    height: var(--height-7);
+}
+.h-fixed-8 {
+    height: var(--height-8);
+}
+
+/* height fluid*/
+.h-10{
+    height: 10%;
+}
+.h-auto{
     height: auto;
 }
-.h-2{
+.h-100{
     height: 100%;
+}
+/* fixed width*/
+.wt-fixed-0 {
+    width: var(--width-0);
+}
+
+.wt-fixed-1 {
+    width: var(--width-1);
+}
+
+.wt-fixed-2 {
+    width: var(--width-2);
+}
+
+.wt-fixed-3 {
+    width: var(--width-3);
+}
+
+.wt-fixed-4 {
+    width: var(--width-4);
+}
+
+.wt-fixed-5 {
+    width: var(--width-5);
+}
+
+.wt-fixed-6 {
+    width: var(--width-6);
+}
+
+.wt-fixed-7 {
+    width: var(--width-7);
+}
+
+.wt-fixed-8 {
+    width: var(--width-8);
 }
 /* width */
 .wt-30{
