@@ -19,7 +19,7 @@
     opacity: 0.5;
 }
 ::-webkit-scrollbar {
-    
+    height: 1rem;
     width: 1rem;
 }
 

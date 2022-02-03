@@ -1,6 +1,8 @@
 
 .icon{
     border: 0.125rem solid black;
+    
+    
 }
 .icon-badge {
 
@@ -17,8 +19,7 @@
 }
 
 .badge {
-    position: absolute;
-    
+    position: absolute; 
     background-color: #F44336;
     width: 20px;
     height: 20px;
@@ -28,7 +29,6 @@
     justify-content: center;
     align-items: center;
     border: 2px solid white;
-
 }
 .width{
     width: 1.25rem;
@@ -59,4 +59,25 @@
 
 .small-font {
     font-size: x-small;
+}
+.badge-avatar{
+    width: 0.5rem;
+    height: 0.5rem;
+    
+    border-radius: 50%;
+    right: 4px;
+    bottom: 7px;
+    border: 1px solid white;
+}
+.top-4{
+    width: 0.625rem;
+    height: 0.625rem;
+    right: 6px;
+    bottom: 9px;
+}
+.top-5 {
+    width: 0.725rem;
+    height: 0.725rem;
+    right: 0.375rem;
+    bottom: 0.725rem;
 }
