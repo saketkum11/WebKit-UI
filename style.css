@@ -1,3 +1,7 @@
+@import url(/component/badges/badge.css);
+@import url(/component/avatar/avatar.css);
+@import url(/component/default.css);
+
 @import url(/index.css);
 @import url(/utilities-css/colors.css);
 @import url(/utilities-css/spacing.css);

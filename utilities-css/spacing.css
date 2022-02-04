@@ -60,7 +60,7 @@
     border-radius: var(--bd-r-4);
 }
 
-.rounded-Full {
+.rounded-full {
     border-radius: var(--bd-r-5);
 }
 
@@ -239,6 +239,7 @@
 .m-auto {
     margin: 0 auto;
 }
+
 .m-lf{
     margin-left: auto;
 }
