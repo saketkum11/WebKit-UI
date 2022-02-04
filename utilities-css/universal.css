@@ -214,6 +214,25 @@
 .wt-100 {
     width: 100%;
 }
+.wt-max-30 {
+    max-width: 30%;
+}
+
+.wt-max-50 {
+    max-width: 50%;
+}
+
+.wt-max-70 {
+    max-width: 70%;
+}
+
+.wt-max-80 {
+    max-width: 80%;
+}
+
+.wt-max-100 {
+    max-width: 100%;
+}
 
 /* size image*/
 .sm {
