@@ -3,6 +3,7 @@
 .container{
     max-width: 80rem;
     height: 100%;
+    overflow: hidden;
 }
 .avatar-sidebar{
     height: 100%;
