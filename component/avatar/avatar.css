@@ -3,9 +3,11 @@
 .container{
     max-width: 80rem;
     height: 100%;
+    
 }
 .avatar-sidebar{
     height: 100%;
+    
 }
 .links{
     text-decoration: none;   
@@ -20,7 +22,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(189, 189, 189);
+    background: var(--grey-200);
 }
 ::-webkit-scrollbar-thumb {
 
