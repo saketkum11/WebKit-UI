@@ -1,5 +1,5 @@
 .icon{
-    border: 0.125rem solid black;
+    border: 1px solid black;
 }
 .icon-badge {
     border: none;
@@ -8,9 +8,9 @@
     height: 2.5rem;
 }
 .badge {
-    background-color: #F44336;
-    width: 20px;
-    height: 20px;
+   
+    width: 1.25rem;
+    height: 1.25rem;
     color: white;
     display: flex;
     justify-content: center;
