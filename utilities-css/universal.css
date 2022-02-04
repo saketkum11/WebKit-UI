@@ -87,6 +87,7 @@
 
 }
 
+
 .object-content {
     object-fit: cover;
 }
@@ -304,7 +305,7 @@
 
 /* position*/
 .border-grey {
-    border: 4px solid var(--grey-300);
+    border: 1px solid var(--grey-500);
 }
 
 .overflow-hide {
@@ -325,4 +326,13 @@
 
 .position-ab {
     position: absolute;
+}
+.border-none{
+    border:none
+}
+.outline-none{
+    outline: none;
+}
+.text-dec{
+    text-decoration: none;
 }
