@@ -87,6 +87,7 @@
 
 }
 
+
 .object-content {
     object-fit: cover;
 }
@@ -195,6 +196,9 @@
 
 
 /* width */
+.wt-35{
+    width: 35rem;
+}
 .wt-30 {
     width: 30%;
 }
@@ -304,7 +308,7 @@
 
 /* position*/
 .border-grey {
-    border: 4px solid var(--grey-300);
+    border: 1px solid var(--grey-500);
 }
 
 .overflow-hide {
@@ -325,4 +329,16 @@
 
 .position-ab {
     position: absolute;
+}
+.border-none{
+    border:none
+}
+.outline-none{
+    outline: none;
+}
+.text-dec{
+    text-decoration: none;
+}
+.box-shadow{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.7);
 }

@@ -1,13 +1,19 @@
 @import url(/utilities-css/colors.css);
 
 .container{
-    max-width: 80rem;
-    height: 100%;
+    max-width: 100%;
+    
     
 }
 .avatar-sidebar{
-    height: 100%;
+     width: 15rem;
+     height: 100%;
+    position: fixed;
+    overflow: auto;
     
+}
+.avatar-content{
+    margin-left: 15rem;
 }
 .links{
     text-decoration: none;   
