@@ -196,6 +196,9 @@
 
 
 /* width */
+.wt-45{
+    width: 35rem;
+}
 .wt-30 {
     width: 30%;
 }

@@ -6,7 +6,8 @@
     
 }
 .avatar-sidebar{
-   overflow: hidden;
+    height: 100%;
+   overflow: auto;
 }
 .links{
     text-decoration: none;   
