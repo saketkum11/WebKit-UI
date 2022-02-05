@@ -1,3 +1,5 @@
+@import url(/component/Cards/cards.css);
+@import url(/component/Button/button.css);
 @import url(/component/Alert/Alert.css);
 @import url(/component/badges/badge.css);
 @import url(/component/avatar/avatar.css);

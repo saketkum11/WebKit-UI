@@ -463,3 +463,17 @@
 .m-b-9{
     margin-bottom: var(--margin-9);
 }
+.m-b-10{
+    margin-bottom: var(--margin-10);
+}
+.m-b-11{
+    margin-bottom: var(--margin-11);
+}
+/* margin right */
+
+.m-r-8{
+    margin-right: var(--margin-8);
+}
+.m-r-9 {
+    margin-right: var(--margin-9);
+}

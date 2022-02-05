@@ -141,7 +141,12 @@
 .h-10 {
     height: 10%;
 }
-
+.h-50{
+    height: 50%;
+}
+.h-70{
+    height: 70%;
+}
 .h-auto {
     height: auto;
 }
