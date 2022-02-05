@@ -415,3 +415,13 @@
 .text-color-9 {
     color: var(--grey-900);
 }
+/* icon color*/ 
+.color-red-5{
+    color: var(--red-500);
+}
+.color-red-6{
+    color: var(--red-600);
+}
+.color-red-7 {
+    color: var(--red-700);
+}
