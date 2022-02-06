@@ -11,7 +11,8 @@
     
 }
 .avatar-content{
-    margin-left: 15rem;
+   
+    margin-left: 16rem;
 }
 .links{
     text-decoration: none;   
@@ -21,7 +22,6 @@
     opacity: 0.5;
 }
 ::-webkit-scrollbar {
-    height: 1rem;
     width: 1rem;
 }
 
@@ -33,6 +33,17 @@
     background: #585858;
 }
 
+.avatar-sidebar::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.avatar-sidebar::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.avatar-sidebar::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
 
 
 @media screen and (max-width:1280px) {
