@@ -1,0 +1,102 @@
+:root {
+
+
+    /* font size */
+
+    --fs-1: 3rem;
+    --fs-2: 2rem;
+    --fs-3: 1.5rem;
+    --fs-4: 1.25rem;
+    --fs-5: 1rem;
+    --fs-6: 0.5rem;
+
+    /* line height */
+
+    --lh-1: 4rem;
+    --lh-2: 2.5rem;
+    --lh-3: 2rem;
+    --lh-4: 1.5rem;
+    --lh-5: 1rem;
+
+
+    /* font weight */
+
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-900: 900;
+}
+
+/* Typograpghy for Heading  and  Text  (Font Size)*/
+
+.text-xl {
+    font-size: var(--fs-1);
+}
+
+.text-lg {
+    font-size: var(--fs-2);
+}
+
+.text-m {
+    font-size: var(--fs-3);
+}
+.text-xm{
+    font-size: var(--fs-4);
+}
+
+.text-s {
+    font-size: var(--fs-5);
+}
+
+.text-xs {
+    font-size: var(--fs-6);
+}
+
+
+
+/* line height*/
+
+
+.line-h-xl {
+    line-height: var(--lh-1);
+}
+
+.line-h-lg {
+    line-height: var(--lh-2);
+}
+
+.line-h-m {
+    line-height: var(--lh-3);
+}
+
+.line-h-s {
+    line-height: var(--lh-4);
+}
+
+.line-h-xs {
+    line-height: var(--lh-5);
+}
+
+/* Typography for Font weight*/
+
+.text-light {
+    font-weight: var(--fw-300);
+}
+
+.text-regular {
+    font-weight: var(--fw-400);
+}
+
+.text-semibold {
+    font-weight: var(--fw-600);
+}
+
+.text-bold {
+    font-weight: var(--fw-700);
+}
+
+.text-bolder {
+    font-weight: var(--fw-900);
+}
