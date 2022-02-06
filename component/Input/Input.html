@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/component/Input/input.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>WebKit-UI</title>
+</head>
+
+<body>
+    <main class="flex container">
+        <aside class="text-color-0">
+            <div class="avatar-sidebar flex  flex-column items-start justify-even bg-blue-5 pd-x-6 pd-y-6 ">
+                <h3 class="text-lg text-color-0 m-b-8 text">WebKit-UI
+                </h3>
+                <a href="" class="links wt-100 text-color-0 pd-x-4 pd-y-2 m-0">Install WebKit-UI Library</a>
+                <a href="/" class="links wt-100 text-color-0 pd-x-4 pd-y-2 m-0">Alert</a>
+                <a href="/component/avatar/avatar.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Avatar</a>
+                <a href="/component/badges/badge.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Badge</a>
+                <a href="/component/Button/button.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Button</a>
+                <a href="/component/Cards/cards.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Card</a>
+                <a href="/component/images-P0/image.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Image</a>
+                <a href="/component/Input/Input.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Input</a>
+                <a href="" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Text Utilities</a>
+                <a href="" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Modal</a>
+                <a href="" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Rating</a>
+                <a href="" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Navigation</a>
+                <a href="" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Slider</a>
+
+                <div class="cursor wt-100 flex justify-around">
+                    <a href="" class="links text-color-0"><i class="fab fa-github"></i></a>
+                    <a href="" class="links text-color-0"><i class="fab fa-twitter"></i></a>
+                    <a href="" class="links text-color-0"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </aside>
+
+        <div class=" avatar-content wt-50 pd-x-11 pd-y-11 flex flex-column items-start m-auto m-t-9 ">
+            <div class=" avatar-head ">
+                <h3 class="text-lg text-light">Inputs</h3>
+                <small class="m-t-5 "></small>
+            </div>
+
+            <form class="m-y-5 wt-100 flex flex-column">
+                <label class="m-t-8">
+                    Email:
+                    <input type="email" class="wt-100 pd-4  m-t-1 text-s rounded-s " placeholder="Email Id">
+
+                </label>
+                <label class="m-t-8">
+                    Email:
+                    <input type="email" class="wt-100 pd-4  m-t-1 text-s rounded-s " placeholder="Email Id">
+                    <span class="color-red-6">*Invalid Input </span>
+
+                </label>
+
+                <label class="m-t-8">
+                    Email:
+                    <input type="email" class="wt-100 m-t-1 pd-4 text-s rounded-s " placeholder="Email Id">
+                    <span class="color-green-6">*Valid Input </span>
+
+                </label>
+
+            </form>
+            <div class="m-auto m-y-5">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=38px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522m-t-5%2520wt-100%2520flex%2520flex-column%2522%253E%250A%2520%253Clabel%2520class%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520Email%253A%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522wt-100%2520pd-4%2520%2520m-t-1%2520text-s%2520rounded-s%2520%2522%2520placeholder%253D%2522Email%2520Id%2522%253E%250A%2520%2520%2520%2520%2520%250A%2520%253C%252Flabel%253E%250A%2520%253Clabel%2520class%253D%2522m-t-8%2522%253E%250A%2520%2520%2520%2520%2520Email%253A%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522wt-100%2520pd-4%2520%2520m-t-1%2520text-s%2520rounded-s%2520%2522%2520placeholder%253D%2522Email%2520Id%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522color-red-6%2522%253E*Invalid%2520Input%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%250A%2520%253C%252Flabel%253E%250A%250A%2520%2520%253Clabel%2520class%253D%2522m-t-8%2522%253E%250A%2520%2520%2520%2520%2520Email%253A%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522wt-100%2520m-t-1%2520pd-4%2520text-s%2520rounded-s%2520%2522%2520placeholder%253D%2522Email%2520Id%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522color-green-6%2522%253E*Valid%2520Input%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%253C%252Flabel%253E%250A%250A%2520%253C%252Fform%253E"
+                    style="width: 35rem; height: 15rem; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
