@@ -100,3 +100,6 @@
 .text-bolder {
     font-weight: var(--fw-900);
 }
+.text-center{
+    text-align: center;
+}
