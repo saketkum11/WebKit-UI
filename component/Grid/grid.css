@@ -1,0 +1,47 @@
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "item1 item2 item5"
+    "item3 item4 item6";
+    gap: 2rem;
+}
+
+.grid-one{
+     grid-area: item1;
+}
+.grid-two{
+    grid-area: item2;
+}
+.grid-three{
+    grid-area: item3;
+}
+.grid-four{
+    grid-area: item4;
+}
+
+/*
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "item-1 item-2 item-5"
+    "item-3 item-4 item-6";
+    gap: 2rem;
+}
+.grid-one{
+    grid-area: item-1;
+}
+.grid-two{
+    grid-area: item-2;
+}
+.grid-three{
+    grid-area: item-3;
+}
+.grid-four{
+    grid-area: item-4;
+}
+.grid-five{
+    grid-area: item-5;
+}
+.grid-six{
+    grid-area: item-6;
+}
