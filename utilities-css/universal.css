@@ -204,6 +204,9 @@
 .wt-35{
     width: 35rem;
 }
+.wt-20{
+    width: 20%;
+}
 .wt-30 {
     width: 30%;
 }
@@ -355,4 +358,7 @@
 }
 .style-none{
     list-style: none;
+}
+.z-index{
+    z-index: 1;
 }
