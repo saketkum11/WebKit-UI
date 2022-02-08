@@ -1,6 +1,12 @@
+@import url(/component/Lists/list.css);
+@import url(/component/Input/input.css);
+@import url(/component/Grid/grid.css);
+@import url(/component/Navigation/nav.css);
+@import url(/component/Rating/rating.css);
+@import url(/component/slider/slider.css);
+@import url(/component/Toast/toast.css);
 @import url(/component/Text/text.css);
 @import url(/component/Image/image.css);
-@import url(/component/Cards/cards.css);
 @import url(/component/Cards/cards.css);
 @import url(/component/Button/button.css);
 @import url(/component/Alert/Alert.css);

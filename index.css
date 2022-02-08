@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
-@import url(style.css);
+@import url(/style.css);
 
 * {
     box-sizing: border-box;
