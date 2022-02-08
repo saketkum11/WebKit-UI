@@ -1,21 +1,13 @@
-.grid{
+.grid-1{
     display: grid;
-    grid-template-areas: 
-    "item1 item2 item5"
-    "item3 item4 item6";
-    gap: 2rem;
-}
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:1rem;
 
-.grid-one{
-     grid-area: item1;
 }
-.grid-two{
-    grid-area: item2;
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
 }
-.grid-three{
-    grid-area: item3;
-}
-.grid-four{
-    grid-area: item4;
-}
-
