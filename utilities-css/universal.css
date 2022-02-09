@@ -418,3 +418,18 @@
 .p-lf-15{
     left: 15%;
 }
+.p-b-0{
+    bottom: 0%;
+}
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--grey-200);
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #585858;
+}
