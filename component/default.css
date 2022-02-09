@@ -1,0 +1,88 @@
+@import url(/utilities-css/colors.css);
+
+.container {
+    max-width: 80rem;
+    height: 100%;
+}
+
+.avatar-sidebar {
+    height: 100%;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links:hover {
+    background-color: var(--grey-700);
+    opacity: 0.5;
+}
+
+::-webkit-scrollbar {
+    height: 1rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(189, 189, 189);
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #585858;
+}
+
+
+
+@media screen and (max-width:1280px) {
+
+    .avatar-sidebar {
+        width: 10rem;
+        font-size: 0.75rem;
+    }
+
+    .text {
+        font-size: 0.75rem;
+    }
+
+    .avatar-content {
+        margin-left: 1rem;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    .avatar-sidebar h3 {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .avatar-sidebar {
+        width: 10rem;
+        font-size: 0.5rem;
+        padding: 0rem;
+
+    }
+
+    .avatar-sidebar h3 {
+        font-size: 1rem;
+    }
+
+    .avatar-content {
+        max-width: 100%;
+
+
+        font-size: 0.75rem;
+        overflow: hidden;
+    }
+
+    .code {
+        max-width: 100%;
+        ;
+
+
+    }
+
+}
