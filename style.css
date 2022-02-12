@@ -1,3 +1,4 @@
+
 @import url(/component/Rating/rating.css);
 @import url(/component/Toast/toast.css);
 @import url(/component/Lists/list.css);
@@ -6,6 +7,7 @@
 @import url(/component/Input/input.css);
 @import url(/component/images-P0/image.css);
 @import url(/component/Grid/grid.css);
+
 @import url(/component/Text/text.css);
 @import url(/component/Image/image.css);
 @import url(/component/Cards/cards.css);
@@ -15,7 +17,6 @@
 @import url(/component/avatar/avatar.css);
 @import url(/component/default.css);
 
-@import url(/index.css);
 @import url(/utilities-css/colors.css);
 @import url(/utilities-css/spacing.css);
 @import url(/utilities-css/typography.css);
