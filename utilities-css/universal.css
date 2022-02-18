@@ -316,7 +316,7 @@
 
 /* position*/
 .border-grey {
-    border: 1px solid var(--grey-500);
+    border: 4px solid var(--grey-400);
 }
 
 .overflow-hide {
