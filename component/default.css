@@ -39,12 +39,13 @@ body {
 
 .links {
     text-decoration: none;
-    padding: 2rem;
+    padding: 0.5rem;
 }
 
 .links:hover {
     background-color: var(--grey-700);
-    opacity: 0.5;
+    opacity: 0.4;
+    border-radius: 2rem;
 }
 
 /* badges*/
