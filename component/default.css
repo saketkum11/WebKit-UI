@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 @import url(style.css);
 
@@ -14,6 +15,7 @@ body {
         sans-serif;
 
 }
+
 
 
 .container {
@@ -33,6 +35,7 @@ body {
     margin-left: 16rem;
 }
 
+
 .alert-border {
     border: 1px solid var(--grey-700);
 }
@@ -40,10 +43,12 @@ body {
 .links {
     text-decoration: none;
     padding: 0.5rem;
+
 }
 
 .links:hover {
     background-color: var(--grey-700);
+
     opacity: 0.4;
     border-radius: 2rem;
 }
@@ -52,6 +57,7 @@ body {
 .icon {
     border: 1px solid black;
 }
+
 
 .icon-badge {
     border: none;
@@ -141,7 +147,9 @@ body {
     background: #585858;
 }
 
+
 .sidebar::-webkit-scrollbar {
+
     width: 0.5rem;
     height: 0.5rem;
 }
