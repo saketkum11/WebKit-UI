@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
-    padding: 0rem;
-    margin: 0rem;
+    padding: 0;
+    margin: 0;
+   
 }
 
 :root {
@@ -138,6 +139,9 @@
 
 
 /* height fluid*/
+.h-vh-10{
+    height: 100vh;
+}
 .h-10 {
     height: 10%;
 }
@@ -319,10 +323,16 @@
 .items-end {
     align-items: flex-end;
 }
+/*grid*/
+.grid{
+    display: grid;
+}
 
 /* position*/
 .border-grey {
+
     border: 4px solid var(--grey-400);
+
 }
 
 .overflow-hide {
@@ -368,6 +378,7 @@
 .z-index{
     z-index: 1;
 }
+
 .style-none {
     list-style: none;
 }
@@ -402,6 +413,7 @@
     right: 30%;
 }
 
+
 /*bottom*/
 .p-btm-5 {
     bottom: 50%;
@@ -415,10 +427,13 @@
     bottom: 30%;
 }
 
+
+
 /*left*/
 .p-lf-5 {
     left: 50%;
 }
+
 
 .p-lf-4 {
     left: 40%;
@@ -438,4 +453,5 @@
 
 .p-b-0 {
     bottom: 0%;
+
 }
