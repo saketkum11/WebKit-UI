@@ -368,3 +368,74 @@
 .z-index{
     z-index: 1;
 }
+.style-none {
+    list-style: none;
+}
+
+.z-index {
+    z-index: 1;
+}
+
+/*top*/
+.p-t-5 {
+    top: 50%;
+}
+
+.p-t-4 {
+    top: 40%;
+}
+
+.p-t-3 {
+    top: 30%;
+}
+
+/*right*/
+.p-r-5 {
+    right: 50%;
+}
+
+.p-r-4 {
+    right: 40%;
+}
+
+.p-r-3 {
+    right: 30%;
+}
+
+/*bottom*/
+.p-btm-5 {
+    bottom: 50%;
+}
+
+.p-btm-4 {
+    bottom: 40%;
+}
+
+.p-btm-3 {
+    bottom: 30%;
+}
+
+/*left*/
+.p-lf-5 {
+    left: 50%;
+}
+
+.p-lf-4 {
+    left: 40%;
+}
+
+.p-lf-3 {
+    left: 30%;
+}
+
+.p-lf-2 {
+    left: 20%;
+}
+
+.p-lf-15 {
+    left: 15%;
+}
+
+.p-b-0 {
+    bottom: 0%;
+}
