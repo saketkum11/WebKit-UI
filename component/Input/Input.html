@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/component/Input/input.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>WebKit-UI</title>
+    <title>Input</title>
 </head>
 
 <body>
@@ -18,23 +18,26 @@
             <div class="sidebar flex  flex-column items-start justify-even bg-blue-5 pd-x-6 pd-y-6 ">
                 <h3 class="text-lg text-color-0 m-b-8 text">WebKit-UI
                 </h3>
-                <a href="/documentation/document.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 m-0">Install
-                    WebKit-UI Library</a>
-                <a href="/component/Alert/Alert.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 m-0">Alert</a>
-                <a href="/component/avatar/avatar.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Avatar</a>
-                <a href="/component/badges/badge.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Badge</a>
-                <a href="/component/Button/button.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Button</a>
-                <a href="/component/Cards/cards.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Card</a>
-                <a href="/component/images-P0/image.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Image</a>
-                <a href="/component/Input/Input.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Input</a>
-                <a href="" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Text Utilities</a>
+
+                <a href="/documentation/document.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2  m-0">Install
+                    WebKit-UI </a>
+                <a href="/component/Alert/Alert.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2  m-0">Alert</a>
+                <a href="/component/avatar/avatar.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Avatar</a>
+                <a href="/component/badges/badge.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Badge</a>
+                <a href="/component/Button/button.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Button</a>
+                <a href="/component/Cards/cards.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Card</a>
+                <a href="/component/images-P0/image.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Image</a>
+                <a href="/component/Input/Input.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Input</a>
+                <a href="/component/Text/text.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Text
+                    Utilities</a>
                 <a href="/component/Lists/list.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">List</a>
                 <a href="/component/Navigation/nav.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Navigation</a>
-                <a href="/component/Modal/modal.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Modal</a>
-                <a href="/component/Rating/rating.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Rating</a>
+                <a href="/component/Modal/modal.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Modal</a>
+                <a href="/component/Rating/rating.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Rating</a>
                 <a href="/component/Toast/toast.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Toast</a>
                 <a href="/component/Grid/grid.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Grid</a>
-                <a href="/component/slider/slider.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Slider</a>
+                <a href="/component/slider/slider.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Slider</a>
+
 
                 <div class="cursor wt-100 flex justify-around">
                     <a href="https://github.com/saketkum11" class="links text-color-0"><i class="fab fa-github"></i></a>
@@ -46,37 +49,38 @@
             </div>
         </aside>
 
-        <div class="box-shadow-1 content wt-80 pd-x-11 pd-y-11 flex flex-column items-start  m-y-9 ">
-            <div class="head ">
+
+        <div class="content box-shadow-1 wt-80 pd-11 flex flex-column items-start  m-y-9 ">
+<div class="head ">
                 <h3 class="text-lg text-light">Inputs</h3>
                 <small class="m-t-5 "></small>
             </div>
 
             <form class="m-y-5 wt-50 flex flex-column m-auto">
                 <label class="m-t-8">
-                    Email:
-                    <input type="email" class="wt-100 pd-4  m-t-1 text-s rounded-s " placeholder="Email Id">
+                    Email:</label>
+                <input type="email" class="wt-100 pd-4  m-t-1 text-s rounded-s " placeholder="Email Id">
 
-                </label>
-                <label class="m-t-8">
-                    Email:
-                    <input type="email" class="wt-100 pd-4  m-t-1 text-s rounded-s " placeholder="Email Id">
-                    <span class="color-red-6">*Invalid Input </span>
-
-                </label>
 
                 <label class="m-t-8">
-                    Email:
-                    <input type="email" class="wt-100 m-t-1 pd-4 text-s rounded-s " placeholder="Email Id">
-                    <span class="color-green-6">*Valid Input </span>
+                    Email:</label>
+                <input type="email" class="wt-100 pd-4  m-t-1 text-s rounded-s " placeholder="Email Id">
+                <span class="color-red-6">*Invalid Input </span>
 
-                </label>
+
+
+                <label class="m-t-8">
+                    Email:</label>
+                <input type="email" class="wt-100 m-t-1 pd-4 text-s rounded-s " placeholder="Email Id">
+                <span class="color-green-6">*Valid Input </span>
 
             </form>
             <div class="m-auto m-y-5">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=742.8000011444092&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=26px&ph=29px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=116%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522m-y-5%2520wt-50%2520flex%2520flex-column%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522m-t-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Email%253A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522wt-100%2520pd-4%2520%2520m-t-1%2520text-s%2520rounded-s%2520%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Email%2520Id%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522m-t-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Email%253A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522wt-100%2520pd-4%2520%2520m-t-1%2520text-s%2520rounded-s%2520%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Email%2520Id%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522color-red-6%2522%253E*Invalid%2520Input%2520%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522m-t-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Email%253A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522wt-100%2520m-t-1%2520pd-4%2520text-s%2520rounded-s%2520%2522%2520placeholder%253D%2522Email%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Id%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522color-green-6%2522%253E*Valid%2520Input%2520%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E"
-                    style="width: 50rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
+
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=976.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=26px&ln=false&fl=1&fm=Fira+Code&fs=10.5px&lh=100%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522m-y-5%2520wt-100%2520flex%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522m-t-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Email%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522wt-100%2520pd-4%2520%2520m-t-1%2520text-s%2520rounded-s%2520%2522%2520placeholder%253D%2522Email%2520Id%2522%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522m-t-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Email%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522wt-100%2520pd-4%2520%2520m-t-1%2520text-s%2520rounded-s%2520%2522%2520placeholder%253D%2522Email%2520Id%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522color-red-6%2522%253E*Invalid%2520Input%2520%253C%252Fspan%253E%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522m-t-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Email%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522wt-100%2520m-t-1%2520pd-4%2520text-s%2520rounded-s%2520%2522%2520placeholder%253D%2522Email%2520Id%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522color-green-6%2522%253E*Valid%2520Input%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E"
+                    style="width: 60rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
+
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>

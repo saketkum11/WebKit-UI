@@ -1,7 +1,15 @@
-.position{
+.position-primary{
     top: 0.5rem;
-    right: 0.7rem;
+    right: 0.7rem;;
 }
+.position-secondary{
+    top: 0rem;
+    right: 0.5rem;
+}
+
 .m-negative{
     margin-top: -4.5rem;
+}
+.overlay-2{
+margin-top: -5rem;
 }

@@ -9,18 +9,19 @@
     <link rel="stylesheet" href="/component/Cards/cards.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>WebKit-UI</title>
+    <title>Cards</title>
 </head>
 
 <body>
     <main class="flex container">
         <aside class="text-color-0">
-            <div class="sidebar flex  flex-column items-start justify-even bg-blue-5 pd-x-6 pd-y-5 ">
+
+            <div class="sidebar flex  flex-column items-start justify-around  bg-blue-5 pd-x-6 pd-y-6">
                 <h3 class="text-lg text-color-0 m-b-8 text">WebKit-UI
                 </h3>
-                <a href="/documentation/document.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 m-0">Install
-                    WebKit-UI Library</a>
-                <a href="/component/Alert/Alert.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 m-0">Alert</a>
+                <a href="/documentation/document.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Install WebKit-UI</a>
+                <a href="/component/Alert/Alert.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Alert</a>
+
                 <a href="/component/avatar/avatar.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Avatar</a>
                 <a href="/component/badges/badge.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Badge</a>
                 <a href="/component/Button/button.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Button</a>
@@ -28,9 +29,13 @@
                 <a href="/component/images-P0/image.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Image</a>
                 <a href="/component/Input/Input.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Input</a>
                 <a href="/component/Text/text.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Text Utilities</a>
+
+                <a href="/component/Lists/list.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">List</a>
+                <a href="/component/Navigation/nav.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Navigation</a>
                 <a href="/component/Modal/modal.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Modal</a>
                 <a href="/component/Rating/rating.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Rating</a>
-                <a href="/component/Navigation/nav.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Navigation</a>
+                <a href="/component/Toast/toast.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Toast</a>
+                <a href="/component/Grid/grid.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Grid</a>
                 <a href="/component/slider/slider.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Slider</a>
 
                 <div class="cursor wt-100 flex justify-around">
@@ -43,102 +48,133 @@
             </div>
         </aside>
 
-        <div class="content box-shadow-1 pd-x-11 pd-y-11 flex flex-column items-start m-y-9 wt-80">
+        <div class="content box-shadow-1 pd-11 flex flex-column items-start m-y-9 wt-80">
+
             <div class="head ">
                 <h3 class="text-lg text-light">Cards</h3>
                 <small class="m-t-5 "> Cards are surfaces information about the specfic topic</small>
             </div>
-            <div class="head ">
-                <small class="text-sm ">Cards with badges and dismiss</small>
+
+            <div class="head m-t-8">
+                <small class="text-xm ">Cards with badges</small>
+
             </div>
-            <div class="m-auto pd-x-11 pd-y-6 wt-100 flex flex-column justify-around m-t-5 m-b-8">
+            <div class=" pd-x-11 pd-y-6 wt-100 flex flex-column justify-around m-t-5 m-b-8">
 
                 <!--- Cards with Badge-->
 
-                <div class="box-shadow pd-x-5 pd-y-5 flex flex-column m-b-8 rounded-s position-rel wt-50 m-auto">
 
-                    <h4>Cards Title</h4>
-                    <small>Text Secondary</small>
+                <div class="box-shadow  m-auto pd-5 flex wt-50 flex-column m-y-8 rounded-s position-rel">
+                    <div class="flex flex-column">
+                        <h4>Cards Title</h4>
+                        <small>Text Secondary</small>
+                    </div>
+                    <div class="m-y-5">
 
-                    <div class="m-t-5">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, magnam.</p>
                     </div>
-                    <div class="flex items-end m-t-5 ">
-                        <a href="" class="pd-x-8 rounded-s pd-y-2 text-color-0 bg-blue-5 text-dec m-r-8">Link 1</a>
-                        <a href="" class="pd-x-8 rounded-s text-color-0 pd-y-2 bg-blue-5 text-dec ">Link 2</a>
+                    <div class="flex  items-start m-y-3 ">
+                        <button
+                            class="cursor bg-blue-5 rounded-s border-none  outline-none text-color-0 pd-x-4 pd-y-3 text-s ">Primary
+                        </button>
+                        <button
+                            class="cursor text-color-0 bg-black-3 rounded-s outline-none border-none pd-x-4 pd-y-3 text-s m-x-4">Secondary
+                        </button>
                     </div>
-                    <div class="position-ab position">
+                    <div class="position-ab position-primary">
                         <i class="fas fa-heart color-red-7 cursor"></i>
                     </div>
-
-
                 </div>
-                <div class="m-auto m-t-11">
+                <div class="m-auto m-y-11">
 
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=833.8500004410744&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=26px&ph=29px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=116%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520pd-x-5%2520pd-y-5%2520flex%2520flex-column%2520m-b-8%2520rounded-s%2520position-rel%2520wt-50%2520m-auto%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522m-t-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520magnam.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520items-end%2520m-t-5%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522pd-x-8%2520rounded-s%2520pd-y-2%2520text-color-0%2520bg-blue-5%2520text-dec%2520m-r-8%2522%253ELink%25201%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522pd-x-8%2520rounded-s%2520text-color-0%2520pd-y-2%2520bg-blue-5%2520text-dec%2520%2522%253ELink%25202%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522position-ab%2520position%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520color-red-7%2520cursor%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 60rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
+
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=786.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=18px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520pd-5%2520flex%2520flex-column%2520m-y-8%2520rounded-s%2520position-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522m-y-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520magnam.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520%2520items-start%2520m-y-3%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522bg-blue-5%2520rounded-s%2520border-none%2520%2520outline-none%2520text-color-0%2520pd-x-4%2520pd-y-3%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520text-s%2520%2522%253EPrimary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-color-0%2520bg-black-3%2520rounded-s%2520outline-none%2520border-none%2520pd-x-4%2520pd-y-3%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520text-s%2520m-x-4%2522%253ESecondary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522position-ab%2520position%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520color-red-7%2520cursor%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        style="width:60rem; height: 30rem; border:0; transform: scale(1); overflow:hidden;"
+           sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
 
                 <!--- Cards with dismiss-->
-
+                <div class="m-y-8">
+                    <small class="text-xm ">Cards with dismiss</small>
+                </div>
 
                 <div
-                    class="box-shadow wt-50 h-70 m-auto  pd-x-5 flex flex-column justify-even  pd-y-3 rounded-s position-rel m-t-11 m-b-11">
-                    <h4>Cards Title</h4>
-                    <span>Text Secondary</span>
+                    class="box-shadow wt-30  m-auto  pd-6 flex flex-column justify-even  rounded-s position-rel m-y-11">
+                    <div>
+                        <img src="/utilities-css/image/mountains.jpg" class="wt-100" alt="">
+                    </div>
+                    <div class="flex flex-column ">
+                        <div class="flex flex-column">
+                            <h4>Cards Title</h4>
+                            <small>Text Secondary</small>
+                        </div>
+                        <div class=" m-y-5">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, magnam.</p>
+                        </div>
+                        <div class="flex  m-y-3 justify-btw ">
+                            <button
+                                class="cursor bg-blue-5 rounded-s border-none  outline-none text-color-0 pd-x-4 pd-y-3 text-s ">Primary
+                            </button>
+                            <button
+                                class="cursor text-color-0 bg-black-4 rounded-s outline-none border-none pd-x-4 pd-y-3 text-s">Secondary
+                            </button>
+                        </div>
+                        <div class="position-ab position-secondary">
+                            <i class="fas fa-times cursor"></i>
+                        </div>
+                    </div>
 
-                    <div class="m-t-5">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, magnam.</p>
-                    </div>
-                    <div class="flex  m-t-8 ">
-                        <a href="" class="pd-x-8 rounded-s pd-y-2 text-color-0 bg-blue-5 text-dec m-r-8">Link 1</a>
-                        <a href="" class="pd-x-8 rounded-s text-color-0 pd-y-2 bg-blue-5 text-dec ">Link 2</a>
-                    </div>
-                    <div class="position-ab position">
-                        <i class="fas fa-times cursor"></i>
-
-                    </div>
 
                 </div>
                 <div class="m-auto">
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=833.8500004410744&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=26px&ph=29px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=116%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520wt-50%2520h-70%2520m-auto%2520%2520pd-x-5%2520flex%2520flex-column%2520justify-even%2520%2520pd-y-3%2520rounded-s%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520position-rel%2520m-t-11%2520m-b-11%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EText%2520Secondary%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522m-t-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520magnam.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520%2520m-t-8%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522pd-x-8%2520rounded-s%2520pd-y-2%2520text-color-0%2520bg-blue-5%2520text-dec%2520m-r-8%2522%253ELink%25201%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522pd-x-8%2520rounded-s%2520text-color-0%2520pd-y-2%2520bg-blue-5%2520text-dec%2520%2522%253ELink%25202%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522position-ab%2520position%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520cursor%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 60rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
+
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=786.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=18px&ln=false&fl=1&fm=Hack&fs=10px&lh=130%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520wt-30%2520%2520m-auto%2520%2520pd-6%2520flex%2520flex-column%2520justify-even%2520%2520rounded-s%2520position-rel%2520m-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520y-11%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Futilities-css%252Fimage%252Fmountains.jpg%2522%2520class%253D%2522wt-100%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-column%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520m-y-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520magnam.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520%2520m-y-3%2520justify-btw%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522bg-blue-5%2520rounded-s%2520border-none%2520%2520outline-none%2520text-color-0%2520pd-x-4%2520pd-y-3%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520text-s%2520%2522%253EPrimary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-color-0%2520bg-black-4%2520rounded-s%2520outline-none%2520border-none%2520pd-x-4%2520pd-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520y-3%2520text-s%2522%253ESecondary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522position-ab%2520position-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520cursor%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        style="width: 60rem; height: 30rem; border:0; transform: scale(1); overflow:hidden;"
+           sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
 
                 <!--- Cards with text overlays-->
 
-                <div class="head m-y-11">
-                    <span class="text-s ">Cards with overlays</span>
+
+                <div class=" m-y-11">
+                    <span class="text-xm ">Cards with overlays</span>
                 </div>
+                <div class="box-shadow wt-30  m-auto flex flex-column justify-around  rounded-s position-rel m-y-11">
+                    <div>
+                        <img src="/utilities-css/image/mountains.jpg" class="wt-100" alt="">
+                    </div>
+                    <div class="flex flex-column pd-6">
+                        <div class="flex flex-column text-color-0 overlay-2">
 
-                <div class="box-shadow wt-30 h-70 m-auto  flex flex-column justify-even rounded-s  m-y-11">
-                    <img src="/utilities-css/image/mountains.jpg" class="wt-100 object-content" alt="">
-
-                    <div class="pd-5">
-                        <div class="m-negative text-color-0  ">
                             <h4>Cards Title</h4>
                             <small>Text Secondary</small>
                         </div>
-                        <div class="m-t-5">
+                        <div class=" m-y-5">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, magnam.</p>
                         </div>
-                        <div class="flex items-center justify-even m-t-8 ">
-                            <a href="#" class="pd-x-8 rounded-s pd-y-2 text-color-0 bg-blue-5 text-dec ">Link 1</a>
-                            <a href="#" class="pd-x-8 rounded-s text-color-0 pd-y-2 bg-blue-5 text-dec ">Link 2</a>
+
+                        <div class="flex  m-y-3 justify-btw ">
+                            <button
+                                class="cursor bg-blue-5 rounded-s border-none  outline-none text-color-0 pd-x-4 pd-y-3 text-s ">Primary
+                            </button>
+                            <button
+                                class="cursor text-color-0 bg-black-4 rounded-s outline-none border-none pd-x-4 pd-y-3 text-s">Secondary
+                            </button>
+
                         </div>
                     </div>
                 </div>
 
-                <div class="m-auto">
+
+                <div class="m-auto m-y-11">
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=833.8500004410744&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=26px&ph=29px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=116%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520wt-50%2520h-70%2520m-auto%2520%2520flex%2520flex-column%2520justify-even%2520%2520%2520rounded-s%2520%2520m-y-11%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Futilities-css%252Fimage%252Fmountains.jpg%2522%2520class%253D%2522wt-100%2520object-content%2522%2520alt%253D%2522%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pd-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522m-negative%2520text-color-0%2520%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522m-t-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520magnam.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520%2520m-t-8%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522pd-x-8%2520rounded-s%2520pd-y-2%2520text-color-0%2520bg-blue-5%2520text-dec%2520m-r-8%2522%253ELink%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25201%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522pd-x-8%2520rounded-s%2520text-color-0%2520pd-y-2%2520bg-blue-5%2520text-dec%2520%2522%253ELink%25202%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 60rem; height:20rem; border:0; transform: scale(1); overflow:hidden;"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=752.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=18px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=10px&lh=113%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520wt-40%2520%2520m-auto%2520%2520%2520flex%2520flex-column%2520justify-even%2520%2520rounded-s%2520position-rel%2520m-y-11%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Futilities-css%252Fimage%252Fmountains.jpg%2522%2520class%253D%2522wt-100%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-column%2520pd-6%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-column%2520text-color-0%2520overlay-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520m-y-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520magnam.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520%2520m-y-3%2520justify-btw%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522bg-blue-5%2520rounded-s%2520border-none%2520%2520outline-none%2520text-color-0%2520pd-x-4%2520pd-y-3%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520text-s%2520%2522%253EPrimary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522text-color-0%2520bg-black-4%2520rounded-s%2520outline-none%2520border-none%2520pd-x-4%2520pd-y-3%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520text-s%2522%253ESecondary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        style="width: 60rem; height: 25rem; border:0; transform: scale(1); overflow:hidden;"
+
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
@@ -148,22 +184,34 @@
 
 
             <!--- card with text only-->
-            <div class="avatar-head m-y-8">
-                <small class="text-s ">Cards with text only</small>
+            <div class=" m-y-8">
+                <small class="text-xm ">Cards with text only</small>
             </div>
 
-            <div class="box-shadow pd-x-5 pd-y-5 wt-50 flex flex-column m-b-8 m-auto rounded-s ">
 
-                <h4>Cards Title</h4>
-                <small>Text Secondary</small>
+            <div class="box-shadow wt-30 pd-5 flex flex-column m-y-8 m-auto rounded-s ">
+                <div class="flex flex-column">
+                    <h4>Cards Title</h4>
+                    <small>Text Secondary</small>
+                </div>
 
                 <div class="m-t-5">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, magnam.</p>
                 </div>
+                <div class="flex  m-y-3 justify-btw ">
+                    <button
+                        class="cursor bg-blue-5 rounded-s border-none  outline-none text-color-0 pd-x-4 pd-y-3 text-s ">Primary
+                    </button>
+                    <button
+                        class="cursor text-color-0 bg-black-4 rounded-s outline-none border-none pd-x-4 pd-y-3 text-s">Secondary
+                    </button>
+                </div>
             </div>
-            <div class="m-auto">
+
+            <div class="m-auto m-y-8">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=833.8500004410744&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=26px&ph=29px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=116%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520pd-x-5%2520pd-y-5%2520wt-50%2520flex%2520flex-column%2520m-b-8%2520m-auto%2520rounded-s%2520%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522m-t-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520magnam.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=752.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=18px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=10px&lh=113%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520wt-30%2520pd-5%2520flex%2520flex-column%2520m-y-8%2520m-auto%2520rounded-s%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522m-t-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520magnam.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+
                     style="width: 60rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
@@ -171,83 +219,117 @@
 
             <!--- card with vertical and horizonatal-->
 
-            <div class="head m-y-10">
-                <small class="text-s">Cards vertical and horizonatal</small>
+
+            <div class="m-y-10">
+                <small class="text-xm">Cards vertical and horizonatal</small>
             </div>
 
-            <div class="flex  justify-around items-start m-auto  m-t-11">
-                <div class="box-shadow wt-30  flex flex-column pd-4 rounded-s m-r-8 ">
-                    <h4>Cards horizonatal</h4>
-                    <small>Text Secondary</small>
-
-                    <div class="text-s">
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, magnam.
-                        </p>
+            <div class="flex  justify-around items-start  m-t-11">
+                <div class="box-shadow wt-70 m-auto flex pd-1 rounded-s m-r-8 ">
+                    <div class="wt-40 pd-4 ">
+                        <img src="/utilities-css/image/norway-2.jpg" class="wt-100" alt="">
                     </div>
+                    <div class="wt-60 pd-3 flex flex-column">
+                        <div>
+                            <h4>Cards horizonatal</h4>
+                            <small>Text Secondary</small>
+                        </div>
+                        <div class="text-s">
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, magnam.
+                            </p>
+                        </div>
+                        <div class="flex flex-column m-y-3 ">
+                            <button
+                                class="cursor bg-blue-5 rounded-s border-none  outline-none text-color-0 pd-x-4 pd-y-3 text-s ">Primary
+                            </button>
+                            <button
+                                class="cursor text-color-0 bg-black-4 rounded-s outline-none border-none pd-x-4 pd-y-3 text-s m-y-2">Secondary
+                            </button>
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div class=" box-shadow  flex flex-column  wt-30  rounded-s ">
-                    <img src="/utilities-css/image/mountains.jpg" class="wt-100 object-content" alt="">
+
+                <div class="box-shadow  flex flex-column  wt-30  rounded-s ">
+                    <div>
+                        <img src="/utilities-css/image/mountains.jpg" class="wt-100   object-content" alt="">
+                    </div>
+
 
                     <div class="pd-4">
                         <div class="  ">
                             <h4>Cards vertical</h4>
                             <small>Text Secondary</small>
                         </div>
-                        <div class="m-t-2">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, magnam.</p>
-                        </div>
-                        <div class="flex  m-t-8 ">
-                            <a href="" class="pd-x-6 rounded-s pd-y-2 text-color-0 bg-blue-5 text-dec m-r-8">Link 1</a>
-                            <a href="" class="pd-x-6 rounded-s text-color-0 pd-y-2 bg-blue-5 text-dec ">Link 2</a>
+
+                        <div class="flex flex-column m-y-3 justify-btw ">
+                            <button
+                                class="cursor bg-blue-5 rounded-s border-none  outline-none text-color-0 pd-x-4 pd-y-3 text-s ">Primary
+                            </button>
+                            <button
+                                class="cursor text-color-0 bg-black-4 rounded-s outline-none border-none pd-x-4 pd-y-3 text-s m-y-2">Secondary
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="m-auto m-t-8">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=742.8000011444092&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=26px&ph=29px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=116%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520wt-30%2520%2520flex%2520flex-column%2520pd-4%2520rounded-s%2520m-r-8%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520horizonatal%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520magnam.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=976.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=26px&ln=false&fl=1&fm=Fira+Code&fs=10.5px&lh=100%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520%2520flex%2520flex-column%2520%2520wt-30%2520%2520rounded-s%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Futilities-css%252Fimage%252Fmountains.jpg%2522%2520class%253D%2522wt-100%2520%2520%2520object-content%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pd-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520vertical%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-column%2520m-y-3%2520justify-btw%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522cursor%2520bg-blue-5%2520rounded-s%2520border-none%2520%2520outline-none%2520text-color-0%2520pd-x-4%2520pd-y-3%2520text-s%2520%2522%253EPrimary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522cursor%2520text-color-0%2520bg-black-4%2520rounded-s%2520outline-none%2520border-none%2520pd-x-4%2520pd-y-3%2520text-s%2520m-y-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25202%2522%253ESecondary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv"
+
                     style="width: 60rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
-            <div class="m-auto">
+
+            <div class="m-auto m-t-8">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=742.8000011444092&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=26px&ph=29px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=116%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520box-shadow%2520%2520flex%2520flex-column%2520%2520wt-30%2520%2520rounded-s%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Futilities-css%252Fimage%252Fmountains.jpg%2522%2520class%253D%2522wt-100%2520object-content%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pd-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520vertical%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522m-t-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520magnam.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520%2520m-t-8%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522pd-x-6%2520rounded-s%2520pd-y-2%2520text-color-0%2520bg-blue-5%2520text-dec%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520m-r-8%2522%253ELink%25201%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522pd-x-6%2520rounded-s%2520text-color-0%2520pd-y-2%2520bg-blue-5%2520text-dec%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2522%253ELink%25202%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    style="width: 60rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=976.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=26px&ln=false&fl=1&fm=Fira+Code&fs=10.5px&lh=100%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520wt-70%2520m-auto%2520flex%2520pd-1%2520rounded-s%2520m-r-8%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wt-40%2520pd-4%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Futilities-css%252Fimage%252Fnorway-2.jpg%2522%2520class%253D%2522wt-100%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wt-60%2520pd-3%2520flex%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520horizonatal%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520magnam.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-column%2520m-y-3%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522cursor%2520bg-blue-5%2520rounded-s%2520border-none%2520%2520outline-none%2520text-color-0%2520pd-x-4%2520pd-y-3%2520text-s%2520%2522%253EPrimary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522cursor%2520text-color-0%2520bg-black-4%2520rounded-s%2520outline-none%2520border-none%2520pd-x-4%2520pd-y-3%2520text-s%2520m-y-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25202%2522%253ESecondary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 976px; height: 365px; border:0; transform: scale(1); overflow:hidden;"
+
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
 
             <!-----Cards with shadow-->
-            <div class="head m-y-10">
-                <small class="text-s">Cards with shadow</small>
+
+            <div class="m-y-11">
+                <small class="text-xm">Cards with shadow</small>
             </div>
 
 
-            <div class="box-shadow wt-30 h-70 m-auto   flex flex-column justify-even   rounded-s  m-y-11">
+            <div class="box-shadow wt-30  m-auto flex flex-column justify-even   rounded-s  m-y-11">
+
                 <div class="pd-5">
                     <h4>Cards with shadow</h4>
                     <small>Text Secondary</small>
                 </div>
-                <div>
+                <div class="pd-4">
                     <img src="/utilities-css/image/mountains.jpg" class="wt-100 object-content" alt="">
                 </div>
-                <div class="pd-5">
+                <div class="pd-4">
 
-                    <div class="m-t-5 ">
+                    <div class="m-y-2">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, magnam.</p>
                     </div>
-                    <div class="flex justify-around m-t-8 ">
-                        <a href="" class="pd-x-8 rounded-s pd-y-2 text-color-0 bg-blue-5 text-dec m-r-8">Link 1</a>
-                        <a href="" class="pd-x-8 rounded-s text-color-0 pd-y-2 bg-blue-5 text-dec ">Link 2</a>
-                    </div>
+                    <div class="flex  m-y-3 justify-btw ">
+                        <button
+                            class="cursor bg-blue-5 rounded-s border-none  outline-none text-color-0 pd-x-4 pd-y-3 text-s ">Primary
+                        </button>
+                        <button
+                            class="cursor text-color-0 bg-black-4 rounded-s outline-none border-none pd-x-4 pd-y-3 text-s m-y-2">Secondary
+                        </button>
+       </div>
                 </div>
             </div>
             <div class="m-auto m-t-8">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=742.8000011444092&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=26px&ph=29px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=116%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520wt-30%2520h-70%2520m-auto%2520%2520%2520flex%2520flex-column%2520justify-even%2520%2520%2520rounded-s%2520%2520m-y-11%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pd-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520with%2520shadow%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Futilities-css%252Fimage%252Fmountains.jpg%2522%2520class%253D%2522wt-100%2520object-content%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pd-5%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522m-t-5%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520magnam.%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520justify-around%2520m-t-8%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522pd-x-8%2520rounded-s%2520pd-y-2%2520text-color-0%2520bg-blue-5%2520text-dec%2520m-r-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25208%2522%253ELink%25201%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522pd-x-8%2520rounded-s%2520text-color-0%2520pd-y-2%2520bg-blue-5%2520text-dec%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2522%253ELink%25202%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    style="width: 60rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=976.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=26px&ln=false&fl=1&fm=Fira+Code&fs=10.5px&lh=100%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520wt-30%2520%2520m-auto%2520flex%2520flex-column%2520justify-even%2520%2520%2520rounded-s%2520%2520m-y-11%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pd-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECards%2520with%2520shadow%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EText%2520Secondary%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pd-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Futilities-css%252Fimage%252Fmountains.jpg%2522%2520class%253D%2522wt-100%2520object-content%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pd-4%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522m-y-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Facere%252C%2520magnam.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520%2520m-y-3%2520justify-btw%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522cursor%2520bg-blue-5%2520rounded-s%2520border-none%2520%2520outline-none%2520text-color-0%2520pd-x-4%2520pd-y-3%2520text-s%2520%2522%253EPrimary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522cursor%2520text-color-0%2520bg-black-4%2520rounded-s%2520outline-none%2520border-none%2520pd-x-4%2520pd-y-3%2520text-s%2520m-y-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25202%2522%253ESecondary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 977px; height: 354px; border:0; transform: scale(1); overflow:hidden;"
+
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
