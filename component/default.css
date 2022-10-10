@@ -16,6 +16,9 @@ body {
 
 }
 
+.main-container > * {
+   flex: 1 1 200px;
+}
 
 
 .container {

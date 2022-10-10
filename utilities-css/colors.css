@@ -207,6 +207,47 @@
 .bg-red-9 {
     background-color: var(--red-900);
 }
+/* violet */ 
+.bg-violet-0 {
+    background-color: var(--violet-50);
+}
+
+.bg-violet-1 {
+    background-color: var(--violet-100);
+}
+
+.bg-violet-2 {
+    background-color: var(--violet-200);
+}
+
+.bg-violet-3 {
+    background-color: var(--violet-300);
+}
+
+.bg-violet-4 {
+    background-color: var(--violet-400);
+}
+
+.bg-violet-5 {
+    background-color: var(--violet-500);
+}
+
+.bg-violet-6 {
+    background-color: var(--violet-600);
+
+}
+
+.bg-violet-7 {
+    background-color: var(--violet-700);
+}
+
+.bg-violet-8 {
+    background-color: var(--violet-800);
+}
+
+.bg-violet-9 {
+    background-color: var(--violet-900);
+}
 /*  purple */
 .bg-purple-0 {
     background-color: var(--purple-50);
