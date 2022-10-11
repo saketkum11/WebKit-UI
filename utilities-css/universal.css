@@ -444,6 +444,9 @@
 
 
 /*bottom*/
+.p-btm-0{
+    bottom: 0%;
+}
 .p-btm-5 {
     bottom: 50%;
 }
