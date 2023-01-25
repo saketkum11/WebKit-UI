@@ -106,8 +106,19 @@
 
 }
 
-/* green*/ 
-
+/* green*/
+.bg-green-0 {
+    background-color: var(--green-50);
+}
+.bg-green-1 {
+    background-color: var(--green-100);
+}
+.bg-green-2 {
+    background-color: var(--green-200);
+} 
+.bg-green-3 {
+    background-color: var(--green-300);
+}
 .bg-green-4 {
     background-color: var(--green-400);
 }
@@ -126,6 +137,7 @@
 .bg-green-9 {
     background-color: var(--green-900);
 }
+/* pink*/ 
 .bg-pink-0 {
     background-color: var(--pink-50);
 }
@@ -417,58 +429,109 @@
 
 /* color */
 
-.text-color-0 {
+.text-color-grey-0 {
     color: var(--grey-50);
 }
 
-.text-color-1 {
+.text-color-grey-1 {
     color: var(--grey-100);
 }
 
-.text-color-2 {
+.text-color-grey-2 {
     color: var(--grey-200);
 }
 
-.text-color-3 {
+.text-color-grey-3 {
     color: var(--grey-300);
 }
 
-.text-color-4 {
+.text-color-grey-4 {
     color: var(--grey-400);
 }
 
-.text-color-5 {
+.text-color-grey-5 {
     color: var(--grey500);
 }
 
-.text-color-6 {
+.text-color-grey-6 {
     color: var(--grey-600);
 }
 
-.text-color-7 {
+.text-color-grey-7 {
     color: var(--grey-700);
 }
 
-.text-color-8 {
+.text-color-grey-8 {
     color: var(--grey-800);
 }
 
-.text-color-9 {
+.text-color-grey-9 {
     color: var(--grey-900);
 }
-/* icon color*/ 
-.color-red-5{
-    color: var(--red-500);
+/* text color green */
+
+.text-color-green-0 {
+    color: var(--green-50);
 }
-.color-red-6{
-    color: var(--red-600);
+
+.text-color-green-1 {
+    color: var(--green-100);
 }
-.color-red-7{
-    color: var(--red-700);
+
+.text-color-green-2 {
+    color: var(--green-200);
 }
-.color-green-6{
+
+.text-color-green-3 {
+    color: var(--green-300);
+}
+
+.text-color-green-4 {
+    color: var(--green-400);
+}
+
+.text-color-green-5 {
+    color: var(--green500);
+}
+
+.text-color-green-6 {
     color: var(--green-600);
 }
-.color-brown-5{
+
+.text-color-green-7 {
+    color: var(--green-700);
+}
+
+.text-color-green-8 {
+    color: var(--green-800);
+}
+
+.text-color-green-9 {
+    color: var(--green-900);
+}
+/* icon color*/ 
+.text-color-red-5{
+    color: var(--red-500);
+}
+.text-color-red-6{
+    color: var(--red-600);
+}
+.text-color-red-7{
+    color: var(--red-700);
+}
+.text-color-red-9{
+    color: var(--red-900);
+}
+.text-color-green-6{
+    color: var(--green-600);
+}
+.text-color-brown-5{
     color: var(--brown-500);
+}
+.text-color-brown-9{
+    color: var(--brown-900);
+}
+/* border color */ 
+.border-grey-9{
+    border-color: solid var(--grey-900);
 }

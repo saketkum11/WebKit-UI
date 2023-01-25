@@ -1,7 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap');
 * {
     box-sizing: border-box;
     padding: 0rem;
@@ -9,11 +9,8 @@
 }
 
 body {
-    font-family: 'Montserrat',
-        sans-serif;
-    font-family: 'Poppins',
-        sans-serif;
-
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .main-container > * {
@@ -25,29 +22,11 @@ body {
     max-width: 100%;
 }
 
-.sidebar {
-    width: 15rem;
-    height: 100%;
-    position: fixed;
-    overflow: auto;
-
-}
-
-.content {
-
-    margin-left: 16rem;
-}
 
 
-.alert-border {
-    border: 1px solid var(--grey-700);
-}
 
-.links {
-    text-decoration: none;
-    padding: 0.5rem;
 
-}
+
 
 .links:hover {
     background-color: var(--grey-700);
@@ -55,6 +34,84 @@ body {
     opacity: 0.4;
     border-radius: 2rem;
 }
+/* index page css*/
+.section-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.section-image{
+   
+     width: 80%;
+     height: auto;
+
+}
+
+
+
+/* alert page css*/
+.nav-active-btn{
+    display: none;
+}
+.nav-open{
+    display: none;
+}
+.drawer{
+    transform: translateX(0%);
+}
+.nav-active {
+    display: inline-flex;
+}
+#close-button{
+    display: none;
+}
+#menu-navigation{
+    display: none;
+}
+
+  @media screen and (max-width:950px) {
+    #close-button{
+        display: inline-flex;
+    }
+    .nav-active-btn{
+        display: block;
+    }
+    .nav-active{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+
+    }
+    #menu-navigation{
+        display: block;
+    }
+    .nav-active ul{
+        padding: 3rem;
+        flex-direction: column;
+        background: #6EE7B7;
+       
+    }
+    .nav-active button{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+         font-size: xx-large;
+    }
+    .drawer{
+       display: none;
+        position: absolute;
+        top: 22%;
+        left: 0;
+        background-color: #6EE7B7;
+    }
+    
+  }
 
 /* badges*/
 .icon {

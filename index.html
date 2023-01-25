@@ -9,19 +9,27 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-
+    <script
+        src="https://kit.fontawesome.com/d62314cbab.js"
+        crossorigin="anonymous"
+      ></script>
     <title>WebKit-UI</title>
 </head>
 
 <body>
 
  
-        <header class=" flex bg-violet-9 pd-6 text-color-0 justify-btw items-center position-rel">
-            <div class="text-lg text-bold">
-                <a href="index.html" class="text-dec text-color-0">WebKit-UI</a>
-            </div>
-         
-                <ul class="style-none text-xm flex justify-around">
+        <header >
+            <div class=" flex bg-green-3 pd-6 text-color-0 justify-btw items-center position-rel">
+                <div class="flex gap-1 justify-center text-lg text-bold">
+                    <div class="humberger_menu">
+                        <button class="pd-x-3 items-center hide "><i class="fa-solid fa-bars"></i></button>
+                    </div>
+                    <a href="index.html" class="text-dec text-color-0">WebKit-UI</a>
+                </div>
+
+             <div class="hide_nav">
+                <ul class="style-none text-xm flex justify-around ">
                     <li class="pd-x-3">
                         <a href="/documentation/document.html" class="text-dec text-color-0">Documentation</a>
 
@@ -38,41 +46,29 @@
                     </li>
                     
                 </ul>
+             </div>
+                    
+            </div>
+           
         </header>
 
-        <main class="m-y-5" >
+        <main>
 
-            <section class="text-lg  grid grid-cols-2 gap-5 bg-grey-2 items-center wt-80 m-auto m-y-11">
-                <div class="flex flex-column items-start">
-                    <h4 class="text-transform-upper">Webkit UI library. </h4>
-                    <p class="text-xm">Design helps you to understand your design ability.</p>
-                     <a class="text-dec text-xm bg-violet-9 text-color-0 pd-3 pd-x-4 m-y-5 border-radius-1" href="">Get Started</a>
-                </div>
-                <div>
-
-                    <img class="wt-100 flex justify-center items-center" src="/utilities-css/image/undraw_winter_designer_a-2-m7.svg" alt="">
-                </div>
-            </section>
- 
-        
+            <div class="flex flex-column gap-2 wt-80 m-auto items-center justify-center m-y-11 ">
+                <section class="section-main flex justify-center text-lg gap-5 bg-grey-2 m-auto ">
+                    <img class="section-image" src="/utilities-css/image/undraw_dream_world_re_x2yl.svg" alt="">
+                   
+                 </section>
+                 <section  class="section-main text-lg text-center flex  flex-column items-center bg-grey-2  " >
+                        <h2 class="font ">Build your <span class="bg-green-4 pd-x-5 text-color-7">WebKit-UI</span>  web pages better and faster. </h2>
+                        <p class="text-xm font ">Design helps you to understand your design ability.</p>
+                    </section>
+                    <a class="text-dec text-xm bg-green-3 text-color-7 font  pd-x-6 pd-y-5 m-y-5 border-radius-1" href="">Get Started</a>
+            </div>
             
         </main>
-        <footer class="position-ab p-btm-0 wt-100 bg-violet-9 text-color-0 flex  items-center flex-column pd-3"> 
-                <section>
-                    <h1>WebKit-UI</h1>
-                </section>
-            <section class="  pd-y-5 text-color-0 ">
-                    <nav >
-                        <ul class=" style-none flex justify-center h-20 ">
-                            <li class="pd-x-3"><a href="#" class="text-dec text-color-0">Documentation</a></li>
-                            <li class=" pd-x-3"><a href="#" class="text-dec text-color-0">Github</a></li>
-                            <li class=" pd-x-3"><a href="#" class="text-dec text-color-0">Twitter</a></li>
-                            <li class=" pd-x-3"><a href="#" class="text-dec text-color-0">LinkedIn</a></li>
-                        </ul>
-                    </nav>
-            </section>
-        </footer>
-
+      
+ <script src="./index.js"></script>
 </body>
 
 </html>

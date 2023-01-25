@@ -4,6 +4,35 @@
     margin: 0;
    
 }
+/* Blocks */
+html,
+body,
+figure,
+p,
+ol,
+ul,
+li,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Form */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 
 :root {
     /*height*/
@@ -84,7 +113,12 @@
     --left-2: 0.5rem;
     --left-1: 0.25rem;
     --left-0: 0rem;
-
+    /* gap */
+    --gap-1: 1rem;
+    --gap-2: 2rem;
+    --gap-3: 3rem;
+    --gap-4: 4rem;
+    --gap-5: 5rem;
 
 }
 
@@ -142,8 +176,38 @@
 .h-vh-10{
     height: 100vh;
 }
+.h-vh-10{
+    height: 10vh;
+}
+.h-vh-20{
+    height: 20vh;
+}
+.h-vh-30{
+    height: 30vh;
+}
+.h-vh-40{
+    height: 40vh;
+}
+.h-vh-50{
+    height: 50vh;
+}
+.h-vh-60{
+    height: 60vh;
+}
+.h-vh-70{
+    height: 70vh;
+}
+.h-vh-80{
+    height: 80vh;
+}
+.h-vh-90{
+    height: 90vh;
+}
 .h-10 {
     height: 10%;
+}
+.h-20{
+    height: 20%;
 }
 .h-50{
     height: 50%;
@@ -271,9 +335,19 @@
     width: 4rem;
     height: 4rem;
 }
+/* flex properties */
+.display-none{
+    display: none;
+}
+.display-block{
+    display: block;
+}
 
 .flex {
     display: flex;
+}
+.flex-1{
+    flex: 1;
 }
 
 .flex-row {
@@ -330,12 +404,26 @@
 .grid-cols-1{
     grid-template-columns: 1fr;
 }
-.grid-cols-2{
-    grid-template-columns: repeat(2,1fr);
+.grid-cols-1_4{
+    grid-template-columns: 1fr 4fr;
 }
+/* gap */
+.gap-1{
+    gap: var(--gap-1);
+}
+.gap-2{
+    gap: var(--gap-2);
+}
+.gap-3{
+    gap: var(--gap-3);
+}
+.gap-4{
+    gap: var(--gap-4);
+}
+
 .gap-5{
    
-    gap: 5rem;
+    gap: var(--gap-5);
 }
 .place-center{
     place-items: center;
@@ -383,6 +471,12 @@
 .position-ab {
     position: absolute;
 }
+.position-sticky {
+    position: sticky;
+}
+.position-fixed{
+    position: fixed;
+}
 .border-none{
     border:none
 }
@@ -408,27 +502,44 @@
     z-index: 1;
 }
 
-.style-none {
-    list-style: none;
-}
 
 .z-index {
     z-index: 1;
 }
 
 /*top*/
-.p-t-5 {
+.top-0{
+    top: 0;
+}
+.top-10{
+    top:10%;
+}
+.top-50 {
     top: 50%;
 }
 
-.p-t-4 {
+.top-40 {
     top: 40%;
 }
 
-.p-t-3 {
+.top-30 {
     top: 30%;
 }
-
+.top-60 {
+    top: 60%;
+}
+.top-70{
+    top:70;
+}
+.top-80{
+    top:80;
+}
+.top-90{
+    top:90;
+}
+.top-100{
+    top:100;
+}
 /*right*/
 .p-r-5 {
     right: 50%;
@@ -462,10 +573,15 @@
 
 
 /*left*/
-.p-lf-5 {
+.left-50 {
     left: 50%;
 }
-
+.left-10{
+    left: 10%;
+}
+.left-0{
+    left: 0;
+}
 
 .p-lf-4 {
     left: 40%;
@@ -493,4 +609,11 @@
 }
 .text-transform-lower{
     text-transform: lowercase;
+}
+/* display other properties*/
+.hide{
+    display: none;
+}
+.display-block{
+    display: block;
 }
