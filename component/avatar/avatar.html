@@ -5,85 +5,168 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="avatar.css">
     <link rel="stylesheet" href="/style.css">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d62314cbab.js" crossorigin="anonymous"></script>  
+      <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
     <title>Avatar</title>
-
 </head>
 
+
 <body>
-    <main class="flex container ">
-
-        <aside class="text-color-0">
-
-            
-            <div class="sidebar flex  flex-column items-start justify-around  bg-blue-5 pd-x-6 pd-y-5">
-                <h3 class="text-lg text-color-0  text">WebKit-UI
-                </h3>
-                <a href="/documentation/document.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Install WebKit-UI</a>
-                <a href="/component/Alert/Alert.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Alert</a>
-
-                <a href="/component/avatar/avatar.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Avatar</a>
-                <a href="/component/badges/badge.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Badge</a>
-                <a href="/component/Button/button.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Button</a>
-                <a href="/component/Cards/cards.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Card</a>
-                <a href="/component/images-P0/image.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Image</a>
-                <a href="/component/Input/Input.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Input</a>
-                <a href="/component/Text/text.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Text Utilities</a>
-
-                <a href="/component/Lists/list.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">List</a>
-                <a href="/component/Navigation/nav.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Navigation</a>
-                <a href="/component/Modal/modal.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Modal</a>
-                <a href="/component/Rating/rating.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Rating</a>
-                <a href="/component/Toast/toast.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Toast</a>
-                <a href="/component/Grid/grid.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Grid</a>
-                <a href="/component/slider/slider.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Slider</a>
-                <div class="cursor wt-100 flex justify-around">
-
-                    <a href="https://github.com/saketkum11" class="links text-color-0"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/saketkum11" class="links text-color-0"><i
-                            class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/saketkumar21/" class="links text-color-0"><i
-                            class="fab fa-linkedin-in"></i></a>
-
-                </div>
+    <header >
+        <div class=" flex bg-green-3 pd-6 justify-btw items-center ">
+            <div class="flex  gap-1 justify-center items-center text-lg text-bold">
+                
+                <a href="index.html" class="text-dec text-color-grey-0">WebKit-UI</a>
             </div>
-        </aside>
-        <div class="content box-shadow-1 pd-11 m-y-9 flex flex-column justify-around pd-x-9 wt-80">
-            <div class="head m-y-5" >
-
-                <h3 class="text-lg text-light">Avatar</h3>
-                <p class="  m-t-5 ">Avatar explains the profile image look like.</p>
-            </div>
-            <div class="">
-                <span class="text-semibold">Variations</span>
-                <p class="m-t-5 ">Avatar with different variation small (sm), medium (m) and large (lg).</p>
-            </div>
-
-
-            <div class="flex items-end justify-around m-auto wt-50 m-y-5">
-
-                <img src="/utilities-css/image/alex.jpg" class="border-grey object-content rounded-full sm m-0" alt="">
-                <img src="/utilities-css/image/alex.jpg" class=" border-grey  object-content
-                 rounded-full m" alt="">
-                <img src="/utilities-css/image/alex.jpg" class="border-grey  object-content rounded-full lg" alt="">
-            </div>
-
-            <div class="m-auto wt-100">
-
-
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522flex%2520items-end%2520pd-11%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Futilities-css%252Fimage%252Falex.jpg%2522%2520class%253D%2522avatar%2520rounded-full%2520sm%2520m-5%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Futilities-css%252Fimage%252Falex.jpg%2522%2520class%253D%2522avatar%2520rounded-full%2520m%2520m-5%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Futilities-css%252Fimage%252Falex.jpg%2522%2520class%253D%2522avatar%2520rounded-full%2520lg%2520m-5%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-
-                    style="width: 100%; height: 279px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-
-                </iframe>
-            </div>
+          
+         <div class=" flex gap-1">
+            <button class="nav-active-btn text-color-grey-0  bg-green-3 text-m" id="nav-button"><i class="fa-solid fa-bars"></i></button>
+            <nav class="nav-active bg-green-3 " id="nav-active">
+                <button class="text-color-grey-0  bg-green-3 text-m" id="close-button"><i class="fa-solid fa-xmark"></i></button>
+                <ul class="style-none text-xm gap-1 flex justify-around ">
+                    <li class="bg-green-9 pd-4 text-center">
+                        <a href="/documentation/document.html" class="text-dec text-color-grey-0">Home</a>
+    
+                    </li>
+                    <li class="bg-green-9 pd-4 text-center">
+                        <a href="/documentation/document.html" class="text-dec text-color-grey-0">Docs</a>
+                    </li>
+                     <li class="bg-green-9 pd-4 text-center">
+                        <a href="/documentation/document.html" class="text-dec text-color-grey-0">GitHub <i class="fa-brands fa-github"></i></a>
+                    </li>
+                </ul>
+            </nav>
+           
+         </div>
+                
         </div>
-    </main>
+       
+    </header>
+    <div class=" bg-green-3 pd-6 text-color-grey-0 text-xm border-grey-9 border-top-1" id="menu-navigation">
+        <span >Menu <i class="fa-sharp fa-solid fa-arrow-down"></i></span>
+    </div>
+
+    <main>
+        <div class="m-auto wt-80 flex flex-wrap  m-y-11">
+         <aside>
+             <div class="drawer  wt-100 " id="drawer">
+             <div class=" flex flex-1 position-sticky top-0  flex-column items-center justify-center text-gray-8 pd-x-11 ">
+                 <h4 class="m-y-4 ">Get Started </h4>
+                 <a href="/documentation/document.html" class="text-dec text-color-grey-9  pd-y-2">Installation</a>
+                 <h4 class="m-y-4">Components </h4>
+                 <nav>
+                     <ul  class="style-none flex flex-column items-center " >
+                         <li class="m-y-4">
+                             <a href="/component/Alert/Alert.html" class="text-dec  wt-100 text-left text-color-grey-9  ">Alert</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/avatar/avatar.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Avatar</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/badges/badge.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Badge</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/Button/button.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Button</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/Cards/cards.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Card</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/images-P0/image.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Image</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/Input/Input.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Input</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/Text/text.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Text </a>
+                         </li>
+                         
+                         <li class="pd-y-4">
+                             <a href="/component/Lists/list.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">List</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/Navigation/nav.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Navigation</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/Modal/modal.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Modal</a>
+     
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/Rating/rating.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Rating</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/Toast/toast.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">Toast</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/Grid/grid.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">Grid</a>
+                         </li>
+                         <li class="pd-y-4">
+                             <a href="/component/slider/slider.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Slider</a>
+                         </li>
+                    
+                     </ul>
+                 </nav>
+                
+                 <div class="cursor wt-100 flex justify-around m-y-6">
+                     <a href="https://github.com/saketkum11" class="text-dec text-color-grey-9"><i class="fab fa-github"></i></a>
+                     <a href="https://twitter.com/saketkum11" class="text-dec text-color-grey-9"><i
+                             class="fab fa-twitter"></i></a>
+                     <a href="https://www.linkedin.com/in/saketkumar21/" class="text-dec text-color-grey-9"><i
+                             class="fab fa-linkedin-in"></i></a>
+ 
+                 </div>
+             </div>
+           </div>
+         </aside>
+ 
+         <div class="flex-1  pd-x-11 ">
+             <div class="m-y-6">
+                 <h3 class="text-lg text-light">Avatars</h3>
+                       <hr>
+                 <h3 class="m-y-6">Introduction</h3>
+                 <p class="m-t-5 ">Avatar is used to display the user profile and represents a person's picture.</p>
+             </div>
+             <div class="m-y-9">
+ 
+                 <span class="m-y-4 text-xm "> Avatar with size</span>
+             </div>
+             
+           <section class=" flex flex-column wt-90  m-auto pd-4">
+             <div class=" flex items-end flex-wrap m-auto justify-center gap-4 wt-100">
+                <img class="width-8 height-8rem object-fit-cover rounded-full" src="/utilities-css/image/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="">
+                <img class="width-6 height-6rem object-fit-cover rounded-full" src="/utilities-css/image/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="">
+                <img class="width-4 height-4rem object-fit-cover rounded-full" src="/utilities-css/image/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="">
+             </div>
+             <div class="m-auto  wt-100 flex-1">
+                 <h5 class="m-y-5">Code: </h5> 
+                
+                 <iframe src="https://www.thiscodeworks.com/embed/63d2b0327341b500159af904" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+             </div>
+           </section>
+           <div class="m-y-9">
+ 
+            <span class="m-y-4 text-xm "> Avatar with Letters</span>
+        </div>
+        
+        <section class=" flex flex-column wt-90  m-auto pd-4">
+            
+            <div class=" flex flex-wrap items-end  m-auto justify-center gap-5 wt-100">
+              
+               <span class="flex justify-center items-center text-lg width-8 height-8rem bg-green-7 object-fit-cover rounded-full" >M</span>
+               <span class="flex justify-center items-center text-m width-6 height-6rem bg-green-7 object-fit-cover rounded-full" >G</span>
+               <span class="flex justify-center items-center text-xm width-4 height-4rem bg-green-7 object-fit-cover rounded-full" >D</span>
+            </div>
+               <div class="m-auto  wt-100 flex-1">
+                   <h5 class="m-y-5">Code: </h5> 
+                   <iframe src="https://www.thiscodeworks.com/embed/63d2ba967341b500159af911" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                </div>
+                   
+      </section>
+
+     </main>
+     <script src="/component/default.js"></script>
 </body>
 
 </html>
