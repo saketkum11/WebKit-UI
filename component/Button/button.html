@@ -6,178 +6,167 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/utilities-css/universal.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d62314cbab.js" crossorigin="anonymous"></script>  
+      <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
     <title>Button</title>
 </head>
 
 <body>
-    <main class="flex container">
-        <aside class="text-color-0">
-
-            <div class="sidebar flex  flex-column items-start justify-around  bg-blue-5 pd-x-6 pd-y-6">
-                <h3 class="text-lg text-color-0 m-b-8 text">WebKit-UI
-                </h3>
-                <a href="/documentation/document.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Install WebKit-UI</a>
-                <a href="/component/Alert/Alert.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Alert</a>
-                <a href="/component/avatar/avatar.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Avatar</a>
-                <a href="/component/badges/badge.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Badge</a>
-                <a href="/component/Button/button.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Button</a>
-                <a href="/component/Cards/cards.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Card</a>
-                <a href="/component/images-P0/image.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Image</a>
-                <a href="/component/Input/Input.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Input</a>
-                <a href="/component/Text/text.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Text Utilities</a>
-                <a href="/component/Lists/list.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">List</a>
-                <a href="/component/Navigation/nav.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Navigation</a>
-                <a href="/component/Modal/modal.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Modal</a>
-                <a href="/component/Rating/rating.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Rating</a>
-                <a href="/component/Toast/toast.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Toast</a>
-                <a href="/component/Grid/grid.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Grid</a>
-                <a href="/component/slider/slider.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2">Slider</a>
-
-                <div class="cursor wt-100 flex justify-around">
-                    <a href="https://github.com/saketkum11" class="links text-color-0"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/saketkum11" class="links text-color-0"><i
-                            class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/saketkumar21/" class="links text-color-0"><i
-                            class="fab fa-linkedin-in"></i></a>
-                </div>
+    <header >
+        <div class=" flex bg-green-3 pd-6 justify-btw items-center ">
+            <div class="flex  gap-1 justify-center items-center text-lg text-bold">
+                <a href="index.html" class="text-dec text-color-grey-0">WebKit-UI</a>
             </div>
-        </aside>
-
-
-        <div class="content box-shadow-1 wt-80 pd-11 flex flex-column items-start m-y-9 ">
-            <div class="head m-y-5 ">
-
-                <h3 class="text-lg text-light">Button</h3>
-                <p>Button helps on action to submit form,dialog.</p>
+          
+            <div class=" flex gap-1">
+                <button class="nav-active-btn text-color-grey-0  bg-green-3 text-m" id="nav-button"><i class="fa-solid fa-bars"></i></button>
+                <nav class="nav-active bg-green-3 " id="nav-active">
+                    <button class="text-color-grey-0  bg-green-3 text-m" id="close-button"><i class="fa-solid fa-xmark"></i></button>
+                    <ul class="style-none text-xm gap-1 flex justify-around ">
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            
+                            <a href="/documentation/document.html" class="text-dec text-s text-color-grey-0">Home</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s  pd-4 text-center">
+                            <a href="/documentation/document.html" class="text-dec text-s  text-color-grey-0">Docs</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            <a href="/documentation/document.html" class="text-dec text-s   text-color-grey-0">GitHub <i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-
-
-            <!----Primary Button-->
-            <div class="head m-t-8">
-                <h4 class="text-m text-light">Primary</h4>
-            </div>
-            <div class="border-grey m-auto pd-x-11 pd-y-6 wt-80  flex justify-even m-y-8">
-
-                <button class="bg-blue-5 rounded-s border-none  outline-none text-color-0 pd-x-3 pd-y-2">Primary
-                </button>
-
-                <button class="bg-purple-5 text-color-0 rounded-s outline-none border-none pd-x-3 pd-y-2">Secondary
-                </button>
-
-                <button class="bg-black-2 rounded-s outline-none border-none pd-x-3 pd-y-2">Light
-                </button>
-
-            </div>
-            <div class="m-auto m-y-8 ">
-
-                <iframe
-
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=597.5500003695488&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=31px&ph=21px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522bg-blue-5%2520rounded-s%2520border-none%2520%2520outline-none%2520text-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520color-0%2520pd-x-3%2520pd-y-2%2522%253EPrimary%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522bg-purple-5%2520text-color-0%2520rounded-s%2520outline-none%2520border-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520none%2520pd-x-3%2520pd-y-2%2522%253ESecondary%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522bg-black-2%2520rounded-s%2520outline-none%2520border-none%2520pd-x-3%2520pd-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520y-2%2522%253ELight%2520%253C%252Fbutton%253E%250A"
-                    style="width: 60rem; height: 30rem; border:0; transform: scale(1); overflow:hidden;"
-
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-
-            </div>
-
-            <!---- link Button-->
-            <div class="head m-y-11">
-                <h4 class="text-m text-light">Link <span> Button</span></h4>
-            </div>
-
-
-            <div class="border-grey pd-x-11 pd-y-6 wt-100 m-b-8 flex justify-even m-t-5 m-auto">
-                <a href="#" class="text-dec rounded-s bg-blue-5 text-color-0 pd-x-3 pd-y-2">Primary</a>
-
-                <a href="" class="text-dec rounded-s text-color-0 bg-purple-5 pd-x-3 pd-y-2">Secondary</a>
-                <a href="#" class="text-dec rounded-s text-color-5 bg-black-3 pd-x-3 pd-y-2">Light</a>
-            </div>
-            <div class="m-auto m-y-8">
-                <iframe
-
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=597.5500003695488&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=31px&ph=21px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522text-dec%2520rounded-s%2520bg-blue-5%2520text-color-0%2520pd-x-3%2520pd-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520y-2%2522%253EPrimary%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522text-dec%2520rounded-s%2520text-color-0%2520bg-purple-5%2520pd-x-3%2520pd-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520y-2%2522%253ESecondary%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522text-dec%2520rounded-s%2520text-color-5%2520bg-black-3%2520pd-x-3%2520pd-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520y-2%2522%253ELight%253C%252Fa%253E%250A"
-                    style="width: 60rem; height: 30rem; border:0; transform: scale(1); overflow:hidden;"
-
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-
-
-
-
-            <!--- Icon button-->
-            <div class="head m-y-11">
-                <h4 class="text-m text-light">Icon <span> Button</span></h4>
-            </div>
-
-            <div class="border-grey m-auto pd-x-11 pd-y-6 wt-80 m-y-8 flex justify-even ">
-
-                <button class="text-color-5 rounded-full border-none  outline-none text-color-0 pd-x-3 pd-y-2"><i
-                        class="fas fa-cart-plus"></i>
-                </button>
-                <button disabled
-                    class="text-color-4 text-color-0 rounded-full outline-none border-none pd-x-3 pd-y-2"><i
-                        class="fas fa-trash-alt"></i>
-                </button>
-                <button class="  text-color-5 rounded-full outline-none border-none pd-x-3 pd-y-2"><i
-                        class="fas fa-envelope"></i>
-                </button>
-                <button class=" text-color-5 rounded-full outline-none border-none pd-x-3 pd-y-2"><i
-                        class="fas fa-microphone-alt"></i>
-                </button>
-
-            </div>
-            <div class="m-auto  m-y-8">
-                <iframe
-
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=597.5500003695488&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=31px&ph=21px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-color-5%2520rounded-full%2520border-none%2520%2520outline-none%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520text-color-0%2520pd-x-3%2520pd-y-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520disabled%2520class%253D%2522text-color-4%2520text-color-0%2520rounded-full%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520outline-none%2520border-none%2520pd-x-3%2520pd-y-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522text-color-5%2520rounded-full%2520outline-none%2520border-none%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pd-x-3%2520pd-y-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520text-color-5%2520rounded-full%2520outline-none%2520border-none%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pd-x-3%2520pd-y-2%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-microphone-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
-                    style="width: 60rem; height: 30rem; border:0; transform: scale(1); overflow:hidden;"
-
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-
-            </div>
-
-
-
-            <!------Floating action button-->
-
-            <div class="  avatar-head m-y-11">
-
-                <h4 class="text-m text-light">Floating action <small> Button</small></h4>
-            </div>
-            <div class="border-grey m-auto pd-x-11 pd-y-6 wt-100 m-b-8 flex justify-even m-y-8">
-
-                <button
-                    class="bg-blue-5 text-color-0 box-shadow rounded-full border-none  outline-none  pd-x-6 pd-y-5 "><i
-                        class="fas fa-plus"></i>
-                </button>
-                <button disabled class=" box-shadow outline-none rounded-full border-none pd-x-6 pd-y-5"><i
-                        class="fas fa-pen"></i>
-                </button>
-                <button class=" rounded-full box-shadow outline-none border-none pd-x-6 pd-y-5"><i
-                        class="fas fa-envelope"></i>
-                </button>
-                <button class="  rounded-full box-shadow outline-none border-none pd-x-6 pd-y-5"><i
-                        class="fas fa-microphone-alt "></i>
-                </button>
-
-            </div>
-
-            <div class="m-auto m-y-8">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=798&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=31px&ph=21px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbuttonclass%253D%2522bg-blue-5%2520text-color-0%2520box-shadow%2520rounded-full%2520border-none%2520%2520outline-none%2520%2520pd-x-6%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pd-y-5%2520%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520disabled%2520class%253D%2522%2520box-shadow%2520outline-none%2520rounded-full%2520border-none%2520pd-x-6%2520pd-y-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-pen%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520rounded-full%2520box-shadow%2520outline-none%2520border-none%2520pd-x-6%2520pd-y-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520%2520rounded-full%2520box-shadow%2520outline-none%2520border-none%2520pd-x-6%2520pd-y-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-microphone-alt%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
-                    style="width: 60rem; height: 30rem; border:0; transform: scale(1); overflow:hidden;"
-
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-
         </div>
+    </header>
+
+    <div class=" bg-green-3 pd-6 text-color-grey-0 text-xm border-grey-9 border-top-1" id="menu-navigation">
+        <span >Menu <i class="fa-sharp fa-solid fa-arrow-down"></i></span>
+    </div>
+    <main>
+        <div class="m-auto wt-70 flex flex-wrap  m-y-11">
+            <aside>
+                <div class="drawer z-index-1  wt-100 " id="drawer">
+                    <div class="flex flex-1 position-sticky top-0  flex-column items-center justify-center text-gray-8 pd-x-11 ">
+                        <h4 class="m-y-4 ">Get Started </h4>
+                        <a href="/documentation/document.html" class="text-dec text-color-grey-9  pd-y-2">Installation</a>
+                        <h4 class="m-y-4">Components </h4>
+                        <nav>
+                            <ul  class="style-none flex flex-column items-center " >
+                                <li class="m-y-4">
+                                    <a href="/component/Alert/Alert.html" class="text-dec  wt-100 text-left text-color-grey-9  ">Alert</a>
+                                </li>
+                                <li class="pd-y-4">
+                                    <a href="/component/avatar/avatar.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Avatar</a>
+                                </li>
+                            <li class="pd-y-4">
+                                <a href="/component/badges/badge.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Badge</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Button/button.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Button</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Cards/cards.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Card</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/images-P0/image.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Image</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Input/Input.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Input</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Text/text.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Text </a>
+                            </li>
+                            
+                            <li class="pd-y-4">
+                                <a href="/component/Lists/list.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">List</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Navigation/nav.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Navigation</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Modal/modal.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Modal</a>
+        
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Rating/rating.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Rating</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Toast/toast.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">Toast</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Grid/grid.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">Grid</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/slider/slider.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Slider</a>
+                            </li>
+                        </ul>
+                    </nav>
+                   
+                    <div class="cursor wt-100 flex justify-around m-y-6">
+                        <a href="https://github.com/saketkum11" class="text-dec text-color-grey-9"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/saketkum11" class="text-dec text-color-grey-9"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/saketkumar21/" class="text-dec text-color-grey-9"><i
+                                class="fab fa-linkedin-in"></i>
+                            </a>
+    
+                    </div>
+                </div>
+              </div>
+            </aside>
+            <div class="flex-1 wt-70 pd-x-11 ">
+                <div class="m-y-6">
+                    <h3 class="text-lg text-bold">Button</h3>
+                          <hr>
+                    <h3 class="m-y-6">Introduction</h3>
+                    <p class="m-t-5 ">Badges are used give status of items.</p>
+                </div>
+                <div class="m-y-11">
+                    <span class="m-y-4 text-xm text-bold ">Primary , Seconday and Outline Button</span>
+                </div>
+
+                <section class=" flex items-center flex-wrap justify-center gap-4  m-y-11">
+                    <button class="bg-green-8 rounded-s border-none  outline-none text-color-grey-0 pd-x-5 pd-y-4 text-s">Primary
+                    </button>
+    
+                    <button class="bg-black-5 rounded-s border-none  outline-none text-color-grey-0 pd-x-5 pd-y-4 text-s">Secondary
+                    </button>
+    
+                    <button class=" rounded-s border-none  outline-none text-color-grey-9 pd-x-5 pd-y-4 text-s"> Outline
+                    </button>
+                </section>
+                <section>
+                    <div class="m-auto  wt-100 flex-1">
+                        <h5 class="m-y-5">Code: </h5> 
+                        <iframe src="https://www.thiscodeworks.com/embed/63d405856aac10001524eee7" style="width: 100%; height: 242px;" frameborder="0"></iframe>
+                     </div>
+                </section>
+
+                <div class="m-y-11">
+                    <span class="text-m">Link button</span>
+                </div>
+    
+                <section class=" flex items-center flex-wrap justify-center gap-4 m-auto">
+                    <a class="cursor  ">Link
+                    </a>
+    
+                 
+
+                </section>
+                <section>
+                    <div class="m-auto  wt-100 flex-1">
+                        <h5 class="m-y-5">Code: </h5> 
+                        <iframe src="https://www.thiscodeworks.com/embed/63d418e36aac10001524eef2" style="width: 100%; height: 242px;" frameborder="0"></iframe>
+                     </div>
+                </section>
+            </div>
+        </div>
+        
+
+
     </main>
+    <script src="/component/default.js"></script>
 </body>
 
 </html>
