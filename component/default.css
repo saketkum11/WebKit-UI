@@ -13,27 +13,6 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-.main-container > * {
-   flex: 1 1 200px;
-}
-
-
-.container {
-    max-width: 100%;
-}
-
-
-
-
-
-
-
-.links:hover {
-    background-color: var(--grey-700);
-
-    opacity: 0.4;
-    border-radius: 2rem;
-}
 /* index page css*/
 .section-flex{
     display: flex;
@@ -114,9 +93,6 @@ body {
   }
 
 /* badges*/
-.icon {
-    border: 1px solid black;
-}
 
 
 .icon-badge {
