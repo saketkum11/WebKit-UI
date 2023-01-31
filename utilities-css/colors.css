@@ -1,7 +1,7 @@
 :root {
 
     /* Black Color*/
-
+    --overlay-color:rgba(79, 79, 79, 0.788);
     --grey-900: #111827;
     --grey-800: #1F2937;
     --grey-700: #374151;
@@ -104,6 +104,9 @@
     --red-100: #FEE2E2;
     --red-50: #FEF2F2;
 
+}
+.bg-overlay{
+    background-color: var(--overlay-color);
 }
 
 /* green*/
