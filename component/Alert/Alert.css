@@ -1,2 +1,64 @@
 
+.nav-active-btn{
+    display: none;
+}
+.nav-open{
+    display: none;
+}
+.drawer{
+    transform: translateX(0%);
+}
+.nav-active {
+    display: inline-flex;
+}
+#close-button{
+    display: none;
+}
+#menu-navigation{
+    display: none;
+}
 
+@media screen and (max-width:950px) {
+    #close-button{
+        display: inline-flex;
+    }
+    .nav-active-btn{
+        display: block;
+    }
+    .nav-active{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+
+    }
+    #wt-70{
+        width: 100%;
+        padding: 0;
+    }
+    #menu-navigation{
+        display: block;
+    }
+    .nav-active ul{
+        padding: 3rem;
+        flex-direction: column;
+        background: #6EE7B7;
+       
+    }
+    .nav-active button{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+         font-size: xx-large;
+    }
+    .drawer{
+        display: none;
+        position: absolute;
+        top: 22%;
+        left: 0;
+        background-color: #6EE7B7;
+    }
+    
+    
+  }

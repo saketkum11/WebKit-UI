@@ -156,6 +156,9 @@ textarea {
     --percentage-90: 90%;
     --percentage-95: 95%;
     --percentage-100: 100%;
+    /* grid fraction*/
+
+    --grid-1fr: 1fr;
 
 }
 
@@ -496,8 +499,16 @@ textarea {
 .grid-cols-1{
     grid-template-columns: 1fr;
 }
-.grid-cols-1_4{
-    grid-template-columns: 1fr 4fr;
+
+.grid-cols-2{
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-cols-3{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-cols-auto{
+    grid-template-columns: repeat(auto-fit, minmax(var(--width-8), 1fr));;
 }
 /* gap */
 .gap-1{
