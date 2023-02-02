@@ -59,8 +59,9 @@
         left: 0;
         background-color: #6EE7B7;
     }
-    .ht-50{
-        height: 70%;
+    nav {
+        display: none;
     }
+  
     
   }
