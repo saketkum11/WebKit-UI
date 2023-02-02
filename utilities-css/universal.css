@@ -376,7 +376,37 @@ textarea {
 .width-scaled4-10{
     width: calc(var(--width-10)*4);
 }
-
+/* width scaled 5 times*/ 
+.width-scaled5-1{
+    width: calc(var(--width-1)*5);
+}
+.width-scaled5-2{
+    width: calc(var(--width-2)*5);
+}
+.width-scaled5-3{
+    width: calc(var(--width-3)*5);
+}
+.width-scaled5-4{
+    width: calc(var(--width-4)*5);
+}
+.width-scaled5-5{
+    width: calc(var(--width-5)*5);
+}
+.width-scaled5-6{
+    width: calc(var(--width-6)*5);
+}
+.width-scaled5-7{
+    width: calc(var(--width-7)*5);
+}
+.width-scaled5-8{
+    width: calc(var(--width-8)*5);
+}
+.width-scaled5-9{
+    width: calc(var(--width-9)*5);
+}
+.width-scaled5-10{
+    width: calc(var(--width-10)*5);
+}
 
 /* width */
 
@@ -432,7 +462,7 @@ textarea {
 /* flex properties */
 
 .display-none{
-    display: none;
+    display:none;
 }
 .display-block{
     display: block;
