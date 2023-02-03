@@ -4,7 +4,7 @@
     margin: 0;
    
 }
-img,video{
+img,video,input{
     max-width: 100%;
 }
 /* Blocks */

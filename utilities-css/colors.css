@@ -534,7 +534,19 @@
 .text-color-brown-9{
     color: var(--brown-900);
 }
-/* border color */ 
-.border-grey-9{
-    border-color: solid var(--grey-900);
+/* border color black*/ 
+.border-black-900{
+    border-color: var(--grey-900);
+}
+.border-black-800{
+    border-color: var(--grey-800);
+}
+.border-black-700{
+    border-color: var(--grey-700);
+}
+.border-black-600{
+    border-color: var(--grey-600);
+}
+.border-black-500{
+    border-color: var(--grey-500);
 }
