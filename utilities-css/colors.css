@@ -646,3 +646,8 @@
 .border-blue-500{
     border-color: var(--blue-500);
 }
+/* hover */ 
+
+.hover-grey-200:hover{
+    background-color: var(--grey-200);
+}

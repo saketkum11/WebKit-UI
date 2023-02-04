@@ -939,3 +939,6 @@ textarea {
 .object-fit-cover{
     object-fit: cover;
 }
+.hover:hover{
+    background-color: rebeccapurple;
+}
