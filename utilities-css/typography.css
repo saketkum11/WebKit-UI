@@ -37,11 +37,11 @@
 .text-center{
     text-align: var(--text-center);
 }
-.text-right{
-    text-align: var(--text-right);
-}
-.text-left{
+.text-start{
     text-align: var(--text-left);
+}
+.text-end{
+    text-align: var(--text-right);
 }
 
 /* Typograpghy for Heading  and  Text  (Font Size)*/
