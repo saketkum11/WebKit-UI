@@ -4,7 +4,9 @@ const closeBtn = document.querySelector("#close-button");
 const drawerMenu = document.querySelector("#menu-navigation");
 const drawer = document.querySelector(".drawer");
 const arrowUp = document.querySelector(".fa-sharp");
+
 let menuFlag = false;
+
 // menu button //
 
 navToggle.addEventListener("click", () => {

@@ -105,6 +105,9 @@
     --red-50: #FEF2F2;
 
 }
+.bg-none{
+    background:none;
+}
 .bg-overlay{
     background-color: var(--overlay-color);
 }
