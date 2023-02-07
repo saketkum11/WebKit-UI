@@ -534,6 +534,28 @@
 .text-color-brown-9{
     color: var(--brown-900);
 }
+/* input ascent color */
+.input-green-800{
+    accent-color: var(--green-800);
+}
+.input-blue-800{
+    accent-color: var(--blue-800);
+}
+.input-black-800{
+    accent-color: var(--grey-800);
+}
+.input-pink-800{
+    accent-color: var(--pink-800);
+}
+.input-red-800{
+    accent-color: var(--red-800);
+}
+.input-voilet-800{
+    accent-color: var(--voilet-800);
+}
+.input-brown-800{
+    accent-color: var(--brown-800);
+}
 /* border color black*/ 
 .border-black-900{
     border-color: var(--grey-900);
