@@ -3,24 +3,42 @@ const centerButton = document.querySelector("#center_snackbar");
 const rightButton = document.querySelector("#right_snackbar");
 const toast = document.querySelectorAll(".display-none");
 const leftToast = document.getElementById("toast_left");
-const centerToast = document.getElementById("center_left");
-const rightToast = document.getElementById("right_left");
+const centerToast = document.getElementById("toast_center");
+const rightToast = document.getElementById("toast_right");
 
-function removeToast() {
-  toast[0].classList.remove("display-none");
+toast.forEach((singleItem) => {
+  singleItem.addEventListener("click", () => {
+    singleItem.classList.add("display-none");
+  });
+});
+
+function timeCloseToast() {
   setTimeout(() => {
-    toast[0].classList.add("display-none");
+    leftToast.classList.add("display-none");
+    centerToast.classList.add("display-none");
+    rightToast.classList.add("display-none");
   }, 5000);
 }
 
-function addToast() {
-  toast[0].classList.add("display-none");
+function closeLeftToast() {
+  leftToast.classList.add("display-none");
+}
+function closeCenterToast() {
+  centerToast.classList.remove("display-none");
+}
+function closeRightToast() {
+  rightToast.classList.remove("display-none");
 }
 
-leftButton.addEventListener("click", removeToast);
-centerButton.addEventListener("click", removeToast);
-rightButton.addEventListener("click", removeToast);
-
-leftToast.addEventListener("click", addToast);
-centerButton.addEventListener("click", addToast);
-rightButton.addEventListener("click", addToast);
+leftButton.addEventListener("click", () => {
+  leftToast.classList.remove("display-none");
+  timeCloseToast();
+});
+centerButton.addEventListener("click", () => {
+  centerToast.classList.remove("display-none");
+  timeCloseToast();
+});
+rightButton.addEventListener("click", () => {
+  rightToast.classList.remove("display-none");
+  timeCloseToast();
+});
