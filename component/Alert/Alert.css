@@ -17,6 +17,9 @@
 #menu-navigation{
     display: none;
 }
+.hide{
+    display: none;
+}
 
 @media screen and (max-width:950px) {
     #close-button{
@@ -62,3 +65,12 @@
   
     
   }
+  @media screen and (max-width:550px) {
+    .hide{
+        display: block;
+    }
+    .deactive-nav{
+        display: none;
+    }
+    
+}
