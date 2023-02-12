@@ -5,7 +5,7 @@ const toast = document.querySelectorAll(".display-none");
 const leftToast = document.getElementById("toast_left");
 const centerToast = document.getElementById("toast_center");
 const rightToast = document.getElementById("toast_right");
-
+const toastFlag = false;
 toast.forEach((singleItem) => {
   singleItem.addEventListener("click", () => {
     singleItem.classList.add("display-none");
