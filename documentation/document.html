@@ -4,14 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d62314cbab.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
     <title>Documentation</title>
 </head>
 
 <body>
+
+    <header >
+        <div class=" flex bg-green-3 pd-6 justify-btw items-center ">
+            <div class="flex  gap-1 justify-center items-center text-lg text-bold">
+                <a href="/index.html" class="text-dec text-color-grey-0">WebKit-UI</a>
+            </div>
+          
+            <div class=" flex gap-1">
+                <button class="nav-active-btn text-color-grey-0  bg-green-3 text-m" id="nav-button"><i class="fa-solid fa-bars"></i></button>
+                <nav class="nav-active bg-green-3 " id="nav-active">
+                    <button class="text-color-grey-0  bg-green-3 text-m" id="close-button"><i class="fa-solid fa-xmark"></i></button>
+                    <ul class="style-none text-xm gap-1 flex justify-around ">
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            
+                            <a href="/index.html" class="text-dec text-s text-color-grey-0">Home</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s  pd-4 text-center">
+                            <a href="/documentation/document.html" class="text-dec text-s  text-color-grey-0">Docs</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            <a href="/documentation/document.html" class="text-dec text-s   text-color-grey-0">GitHub <i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class=" bg-green-3 pd-6 text-color-grey-0 text-xm border-grey-9 border-top-1" id="menu-navigation">
+        <span >Menu <i class="fa-sharp fa-solid fa-arrow-down"></i></span>
+    </div>
     <main class="flex container">
         <aside class="text-color-0">
             <div class="sidebar flex  flex-column items-start justify-even bg-blue-5 pd-x-6 pd-y-6 ">
