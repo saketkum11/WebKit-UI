@@ -9,10 +9,10 @@
       "https://webkit-ui.netlify.app/style.css"
 
        
-     <----Import in your css---->
-     <head> 
+     <----put code insidehead ---->
+     
        <link rel="stylesheet" href="https://webkit-ui.netlify.app/style.css">
-     </head>
+    
 </pre>
 
 ## Component Lists
