@@ -17,36 +17,30 @@
 
 - [Alert](https://webkit-ui.netlify.app/component/alert/alert)
 
-  - jkfjghdjfhgj
+- [Avatar](https://webkit-ui.netlify.app/component/avatar/avatar.html)
 
-[Avatar](https://webkit-ui.netlify.app/component/avatar/avatar.html)
+- [Badge](https://webkit-ui.netlify.app/component/badges/badge.html)
 
-[Badge](https://webkit-ui.netlify.app/component/badges/badge.html)
+- [Button](https://webkit-ui.netlify.app/component/button/button)
 
-[Button](https://webkit-ui.netlify.app/component/button/button)
+- [Card](https://webkit-ui.netlify.app/component/cards/cards)
 
-[Card](https://webkit-ui.netlify.app/component/cards/cards)
+- [Image](https://webkit-ui.netlify.app/component/images/image.html)
 
-[Image](https://webkit-ui.netlify.app/component/images/image.html)
+- [Input](https://webkit-ui.netlify.app/component/input/input)
 
-[Input](https://webkit-ui.netlify.app/component/input/input)
+- [Text](https://webkit-ui.netlify.app/component/text/text)
 
-[Text](https://webkit-ui.netlify.app/component/text/text)
+- [List](https://webkit-ui.netlify.app/component/lists/list)
 
-[List](https://webkit-ui.netlify.app/component/lists/list)
+- [Navigation](https://webkit-ui.netlify.app/component/navigation/nav)
 
-[Navigation](https://webkit-ui.netlify.app/component/navigation/nav)
+- [Modal](https://webkit-ui.netlify.app/component/modal/modal)
 
-[Modal](https://webkit-ui.netlify.app/component/modal/modal)
+- [Rating](https://webkit-ui.netlify.app/component/rating/rating)
 
-[Rating](https://webkit-ui.netlify.app/component/rating/rating)
+- [SnackBar](https://webkit-ui.netlify.app/component/toast/toast)
 
-[SnackBar](https://webkit-ui.netlify.app/component/toast/toast)
+- [Grid](https://webkit-ui.netlify.app/component/grid/grid)
 
-[Grid](https://webkit-ui.netlify.app/component/grid/grid)
-
-[Slider](https://webkit-ui.netlify.app/component/slider/slider.html)
-
-<br>
-<br>
-<br>
+- [Slider](https://webkit-ui.netlify.app/component/slider/slider.html)
