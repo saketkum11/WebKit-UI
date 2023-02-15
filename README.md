@@ -15,9 +15,9 @@
 
 ## Component Lists
 
-[Alert](https://webkit-ui.netlify.app/component/alert/alert)
+- [Alert](https://webkit-ui.netlify.app/component/alert/alert)
 
-    - jkfjghdjfhgj
+  - jkfjghdjfhgj
 
 [Avatar](https://webkit-ui.netlify.app/component/avatar/avatar.html)
 
