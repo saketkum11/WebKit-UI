@@ -6,56 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-
+    <script
+        src="https://kit.fontawesome.com/d62314cbab.js"
+        crossorigin="anonymous"
+      ></script>
     <title>WebKit-UI</title>
 </head>
 
 <body>
 
-
-
-    <div class="flex flex-column ">
-        <header class=" flex bg-blue-5 pd-6 text-color-0 justify-btw items-center position-rel">
-            <div class="text-lg text-bold">
-                <span>WebKit-UI</span>
+ 
+    <header >
+        <div class=" flex bg-green-3 pd-6 justify-btw items-center ">
+            <div class="flex  gap-1 justify-center items-center text-lg text-bold">
+                <a href="/index.html" class="text-dec text-color-grey-0">WebKit-UI</a>
             </div>
-            <div>
-                <ul class="style-none text-xm flex justify-around">
-                    <li class="m-x-3">
-                        <a href="/documentation/document.html" class="text-dec text-color-0">Documentation</a>
-
-                    </li>
-                    <li class="m-x-3">
-                         <a href="https://github.com/saketkum11" class=" text-color-0"><i class="fab fa-github"></i></a>
-                    </li>
-                     <li class="m-x-3">
-                         <a href="https://twitter.com/saketkum11" class=" text-color-0"><i class="fab fa-twitter"></i></a>
-                    </li>
-
-                     <li class="m-x-3">
-                         <a href="https://www.linkedin.com/in/saketkumar21/" class=" text-color-0"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                    
-                </ul>
+          
+            <div class=" flex gap-1">
+                <button class="nav-active-btn text-color-grey-0  bg-green-3 text-m" id="nav-button"><i class="fa-solid fa-bars"></i></button>
+                <nav class="nav-active bg-green-3 " id="nav-active">
+                    <button class="text-color-grey-0  bg-green-3 text-m" id="close-button"><i class="fa-solid fa-xmark"></i></button>
+                    <ul class="style-none text-xm gap-1 flex justify-around ">
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            <a href="/index.html" class="text-dec text-s text-color-grey-0">Home</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s  pd-4 text-center">
+                            <a href="/documentation/document.html" class="text-dec text-s  text-color-grey-0">Docs</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            <a href="https://github.com/saketkum11/WebKit-UI.git" class="text-dec text-s   text-color-grey-0">GitHub <i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </header>
-        <div class=" flex flex-column items-center  position-ab p-t-4 p-lf-2 ">
-            <div class="text-lg">
-                <p><strong>Webkit UI</strong> library helps you to understand your design ability.</p>
-            </div>
-
-            <div class="m-t-5">
-                <a href="https://github.com/saketkum11/WebKit-UI.git" class="links text-m text-color-0 bg-blue-5 m-t-5  pd-x-3 pd-y-3">github</a>
-                <a href="/documentation/document.html" class="links text-m text-color-0 bg-blue-5 pd-x-3 pd-y-3">Documentation</a>
-
-            </div>
-            
         </div>
+    </header>
+        <main>
+            <section>
+                <div class="flex flex-column gap-2  m-auto items-center justify-center m-y-11 ">
+                    <div class=" flex justify-center wt-max-100 text-lg gap-5 bg-grey-2 m-auto ">
+                        <img class="width-scaled4-9 object-content-center ht-auto" src="/utilities-css/image/undraw_dream_world_re_x2yl.svg" alt="">
+                       
+                     </div>
+                     <div class=" text-lg text-center flex  flex-column items-center bg-grey-2  " >
+                            <h2 class="font ">Build your <span class="bg-green-4 pd-x-5 text-color-7">WebKit-UI</span>  web pages better and faster. </h2>
+                            <p class="text-xm font ">Design helps you to understand your design ability.</p>
+                        </div>
+                        <a class="text-dec text-xm bg-green-3 text-color-grey-9  pd-x-6 pd-y-5 m-y-5 border-radius-1" href="/documentation/document.html">Get Started</a>
+                </div>
+            </section>
+        </main>
+      
+        <script src="/component/default.js"></script>
 
-    </div>
 </body>
 
 </html>

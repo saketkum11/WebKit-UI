@@ -4,64 +4,128 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/component/Text-utlilites/text.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>Text-Utilities</title>
+    <script src="https://kit.fontawesome.com/d62314cbab.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+    <title>Text</title>
 </head>
 
 <body>
-    <main class="flex container">
-        <aside class="text-color-0">
-            <div class="sidebar flex  flex-column items-start justify-even bg-blue-5 pd-x-6 pd-y-6 ">
-                <h3 class="text-lg text-color-0 m-b-8 text">WebKit-UI
-                </h3>
-
-                <a href="/documentation/document.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2  m-0">Install
-                    WebKit-UI </a>
-                <a href="/component/Alert/Alert.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2  m-0">Alert</a>
-
-                <a href="/component/avatar/avatar.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Avatar</a>
-                <a href="/component/badges/badge.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Badge</a>
-                <a href="/component/Button/button.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Button</a>
-                <a href="/component/Cards/cards.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Card</a>
-                <a href="/component/images-P0/image.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Image</a>
-                <a href="/component/Input/Input.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Input</a>
-
-                <a href="/component/Text/text.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Text
-                    Utilities</a>
-
-                <a href="/component/Lists/list.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">List</a>
-                <a href="/component/Navigation/nav.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Navigation</a>
-                <a href="/component/Modal/modal.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Modal</a>
-                <a href="/component/Rating/rating.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Rating</a>
-                <a href="/component/Toast/toast.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Toast</a>
-                <a href="/component/Grid/grid.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Grid</a>
-                <a href="/component/slider/slider.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Slider</a>
-
-                <div class="cursor wt-100 flex justify-around">
-                    <a href="https://github.com/saketkum11" class="links text-color-0"><i class="fab fa-github"></i></a>
-
-                    <a href="https://twitter.com/saketkum11" class="links text-color-0"><i
-                            class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/saketkumar21/" class="links text-color-0"><i
-                            class="fab fa-linkedin-in"></i></a>
-
-                </div>
+    <header >
+        <div class=" flex bg-green-3 pd-6 justify-btw items-center ">
+            <div class="flex  gap-1 justify-center items-center text-lg text-bold">
+                <a href="/index.html" class="text-dec text-color-grey-0">WebKit-UI</a>
+            </div>        
+            <div class=" flex gap-1">
+                <button class="nav-active-btn text-color-grey-0  bg-green-3 text-m" id="nav-button"><i class="fa-solid fa-bars"></i></button>
+                <nav class="nav-active bg-green-3 " id="nav-active">
+                    <button class="text-color-grey-0  bg-green-3 text-m" id="close-button"><i class="fa-solid fa-xmark"></i></button>
+                    <ul class="style-none text-xm gap-1 flex justify-around ">
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            <a href="/index.html" class="text-dec text-s text-color-grey-0">Home</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s  pd-4 text-center">
+                            <a href="/documentation/document.html" class="text-dec text-s  text-color-grey-0">Docs</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            <a href="https://github.com/saketkum11/WebKit-UI.git" class="text-dec text-s   text-color-grey-0">GitHub <i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </aside>
+        </div>
+    </header>
+    <div class=" bg-green-3 pd-6 text-color-grey-0 text-xm border-grey-9 border-top-1" id="menu-navigation">
+        <span >Menu <i class="fa-sharp fa-solid fa-arrow-down"></i></span>
+    </div>
+    <main >
+        <div class="m-auto wt-80 flex flex-wrap  m-y-11" id="wt-70">
 
-        <div class="content box-shadow-1 wt-80 pd-x-8 pd-y-8 flex flex-column items-start  m-y-9 ">
-            <div class="head m-y-5 ">
-                <h3 class="text-lg text-light">Text Typography</h3>
-            </div>
-            <div class="flex flex-column items-start justify-even m-y-5">
-                <div class="head ">
-                    <h3 class="text-m text-light">Headings</h3>
+            <aside>
+                <div class="drawer z-index-1  wt-100 " id="drawer">
+                    <div class="flex flex-column items-center justify-center text-gray-8 pd-x-11 ">
+                        <h4 class="m-y-4 ">Get Started </h4>
+                        <a href="/documentation/document.html" class="text-dec text-color-grey-9  pd-y-2">Installation</a>
+                        <h4 class="m-y-4">Components </h4>
+                        <nav>
+                            <ul  class="style-none flex flex-column items-center " >
+                                <li class="m-y-4">
+                                    <a href="/component/Alert/Alert.html" class="text-dec  wt-100 text-left text-color-grey-9  ">Alert</a>
+                                </li>
+                                <li class="pd-y-4">
+                                    <a href="/component/avatar/avatar.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Avatar</a>
+                                </li>
+                            <li class="pd-y-4">
+                                <a href="/component/badges/badge.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Badge</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Button/button.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Button</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Cards/cards.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Card</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/images/image.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Image</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Input/Input.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Input</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Text/text.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Text </a>
+                            </li>
+                            
+                            <li class="pd-y-4">
+                                <a href="/component/Lists/list.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">List</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Navigation/nav.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Navigation</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Modal/modal.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Modal</a>
+        
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Rating/rating.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Rating</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Toast/toast.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">Toast</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Grid/grid.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">Grid</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/slider/slider.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Slider</a>
+                            </li>
+                        </ul>
+                    </nav>
+                   
+                    <div class="cursor wt-100 flex justify-around m-y-6">
+                        <a href="https://github.com/saketkum11" class="text-dec text-color-grey-9"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/saketkum11" class="text-dec text-color-grey-9"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/saketkumar21/" class="text-dec text-color-grey-9"><i
+                                class="fab fa-linkedin-in"></i>
+                            </a>
+                    </div>
                 </div>
-                <div class="box-shadow pd-11 m-y-5 rounded-s m-auto">
+              </div>
+            </aside>
+            <section class="flex-1 wt-70 pd-x-11 flex flex-column">
+                <div class="m-y-6">
+                    <h3 class="text-lg text-bold">Text-Utilites</h3>
+                          <hr>
+                    <h3 class="m-y-6">Introduction</h3>
+                    <p class="m-t-5">Text utilities are the style for your text design.</p>
+                </div>
+                <div class="m-y-8">
+                    <span class="m-y-4 text-m text-bold ">Simple Typography</span>
+                </div>
+                <div class="m-y-1 ">
+                    <span class="m-y-4 text-xm "> Heading text has 6 different type <strong>1 to 6.</strong></span>
+                </div>
+                <div class="flex flex-column flex-wrap gap-1 border-1 border-grey-9 width-scaled4-8 wt-max-100 border-solid m-y-11 rounded-s m-auto pd-x-5 pd-y-5">
                     <h1 class="text-xl">H1.Heading</h1>
                     <h2 class="text-lg">H2.Heading</h2>
                     <h3 class="text-m">H3.Heading</h3>
@@ -69,57 +133,51 @@
                     <h5 class="text-s">H5.Heading</h5>
                     <h6 class="text-xs">H6.Heading</h6>
                 </div>
-                <div class="m-auto m-y-5">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=506&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=26px&ln=false&fl=1&fm=Fira+Code&fs=10.5px&lh=100%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520pd-11%2520m-y-5%2520rounded-s%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522text-xl%2522%253EH1.Heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522text-lg%2522%253EH2.Heading%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522text-m%2522%253EH3.Heading%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522text-xm%2522%253EH4.Heading%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522text-s%2522%253EH5.Heading%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522text-xs%2522%253EH6.Heading%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 60rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="m-auto wt-80 ">
+                    <h5 class="m-y-5">Code: </h5> 
+                    <iframe src="https://www.thiscodeworks.com/embed/63de4497572d1200159b7b5e" style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                    
+                 </div>
+                 <div class="m-y-11">
+                    <span class="m-y-4 text-m text-bold ">Alignment</span>
                 </div>
-                <div class="m-y-11">
-                    <h3 class="text-m text-light ">Text</h3>
+                <div class="m-y-1 ">
+                    <span class="m-y-4 text-xm "> Text Alignment has 3 different <strong>text-start, text-center, text-end.</strong></span>
                 </div>
-                <div class="box-shadow flex items-center rounded-s pd-5 m-y-5 m-auto">
-                    <div class="text-s text-color-4 pd-x-4 ">Text Gray</div>
-                    <div class="text-s pd-x-4">Center</div>
-                    <div class="text-xs pd-x-4 ">Text-small</div>
+                 <div class=" flex flex-wrap flex-column justify-center gap-1 border-1 border-grey-9 width-scaled4-8 wt-max-100 border-solid  m-y-11 rounded-s pd-y-3 pd-x-3 m-auto">
+                    <div class="text-s text-start pd-x-4 ">Text Start</div>
+                    <div class="text-s text-center pd-x-4 ">Text-Center</div>
+                    <div class="text-s text-end pd-x-4 ">Text-Left</div>
                 </div>
-                <div class="m-auto m-y-5">
-
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=506&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=26px&ln=false&fl=1&fm=Fira+Code&fs=10.5px&lh=100%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522box-shadow%2520flex%2520items-center%2520rounded-s%2520pd-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25205%2520m-y-5%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-s%2520text-color-4%2520pd-x-4%2520%2522%253EText%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Gray%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-s%2520pd-x-4%2522%253ECenter%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-xs%2520pd-x-4%2520%2522%253EText-small%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 60rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-
+                <div class="m-auto wt-80 ">
+                    <h5 class="m-y-5">Code: </h5> 
+                    <iframe src="https://www.thiscodeworks.com/embed/63de44f6572d1200159b7b5f" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                 </div>
+                 <div class="m-y-11">
+                    <span class="m-y-4 text-m text-bold ">Paragraph</span>
                 </div>
-
-                <div class="m-y-11">
-                    <h3 class="text-m text-light ">Paragraph</h3>
+                <div class="m-y-1">
+                    <span class="m-y-4 text-xm "> Paragraph has 5 different type <strong>text-lg, text-m, text-xm, text-s, text-xs .</strong></span>
                 </div>
-                <div class="pd-x-4 m-y-5">
-                    <p class="text-lg pd-3 m-y-2 bg-black-5">1. Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Tempora, mollitia!.</p>
-                    <p class=" text-m pd-3 m-y-2 bg-black-4">2. Lorem ipsum dolor sit amet, consectetur adipisicing
+                 <div class="flex flex-column gap-1 items-center pd-x-4 m-y-11 wt-max-100">
+                    <p class="text-lg">1. Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Tempora, mollitia!. </p>
+                    <p class=" text-m">2. Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Autem, quis?</p>
-                    <p class="text-xm pd-3 m-y-2  bg-black-3">3. Lorem, ipsum dolor sit amet consectetur adipisicing
+                    <p class="text-xm ">3. Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Rem, ipsam.</p>
-                    <p class="text-s pd-3 m-y-2 bg-black-2">4. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p class="text-s">4. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ipsam, hic!</p>
-                    <p class="text-xs pd-3  m-y-2 bg-black-1">5. Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Ipsum est fugit at saepe nesciunt magni eius voluptate voluptatum odit quasi.</p>
+                    <p class="text-xs ">5. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, reprehenderit.</p>
                 </div>
-                <div class="m-auto m-y-6">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=849.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=26px&ln=false&fl=1&fm=Fira+Code&fs=10.5px&lh=100%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pd-x-4%2520m-y-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-lg%2520pd-3%2520m-y-2%2520bg-black-5%2522%253E1.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520elit.%2520Tempora%252C%2520mollitia%21.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520text-m%2520pd-3%2520m-y-2%2520bg-black-4%2522%253E2.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipisicing%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520elit.%2520Autem%252C%2520quis%253F%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-xm%2520pd-3%2520m-y-2%2520%2520bg-black-3%2522%253E3.%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520elit.%2520Rem%252C%2520ipsam.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-s%2520pd-3%2520m-y-2%2520bg-black-2%2522%253E4.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Ipsam%252C%2520hic%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-xs%2520pd-3%2520%2520m-y-2%2520bg-black-1%2522%253E5.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520elit.%2520Ipsum%2520est%2520fugit%2520at%2520saepe%2520nesciunt%2520magni%2520eius%2520voluptate%2520voluptatum%2520odit%2520quasi.%253C%252Fp%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 60rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-            </div>
+                <div class="m-auto wt-80 ">
+                    <h5 class="m-y-5">Code: </h5> 
+                    <iframe src="https://www.thiscodeworks.com/embed/63de4554572d1200159b7b60" style="width: 100%; height: 151px;" frameborder="0"></iframe>
+                 </div>
+            </section>
         </div>
     </main>
+    <script src="/component/default.js"></script>
 </body>
 
 </html>

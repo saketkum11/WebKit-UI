@@ -4,115 +4,161 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/component/Toast/toast.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d62314cbab.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
     <title>Toast</title>
 </head>
 
 <body>
-    <main class="flex container">
-        <aside class="text-color-0">
-            <div class="sidebar flex  flex-column items-start justify-even bg-blue-5 pd-x-6 pd-y-6 ">
-                <h3 class="text-lg text-color-0 m-b-8 text">WebKit-UI
-                </h3>
-
-                <a href="/documentation/document.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2  m-0">Install
-                    WebKit-UI </a>
-                <a href="/component/Alert/Alert.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2  m-0">Alert</a>
-
-                <a href="/component/avatar/avatar.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Avatar</a>
-                <a href="/component/badges/badge.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Badge</a>
-                <a href="/component/Button/button.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Button</a>
-                <a href="/component/Cards/cards.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Card</a>
-                <a href="/component/images-P0/image.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Image</a>
-                <a href="/component/Input/Input.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Input</a>
-
-                <a href="/component/Text/text.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Text
-                    Utilities</a>
-
-                <a href="/component/Lists/list.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">List</a>
-                <a href="/component/Navigation/nav.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Navigation</a>
-                <a href="/component/Modal/modal.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Modal</a>
-                <a href="/component/Rating/rating.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Rating</a>
-                <a href="/component/Toast/toast.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Toast</a>
-                <a href="/component/Grid/grid.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Grid</a>
-                <a href="/component/slider/slider.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Slider</a>
-
-                <div class="cursor wt-100 flex justify-around">
-                    <a href="https://github.com/saketkum11" class="links text-color-0"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/saketkum11" class="links text-color-0"><i
-                            class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/saketkumar21/" class="links text-color-0"><i
-                            class="fab fa-linkedin-in"></i></a>
-
+    <header >
+        <div class=" flex bg-green-3 pd-6 justify-btw items-center ">
+            <div class="flex  gap-1 justify-center items-center text-lg text-bold">
+                <a href="/index.html" class="text-dec text-color-grey-0">WebKit-UI</a>
+            </div>
+          
+            <div class=" flex gap-1">
+                <button class="nav-active-btn text-color-grey-0  bg-green-3 text-m" id="nav-button"><i class="fa-solid fa-bars"></i></button>
+                <nav class="nav-active bg-green-3 " id="nav-active">
+                    <button class="text-color-grey-0  bg-green-3 text-m" id="close-button"><i class="fa-solid fa-xmark"></i></button>
+                    <ul class="style-none text-xm gap-1 flex justify-around ">
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            <a href="/index.html" class="text-dec text-s text-color-grey-0">Home</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s  pd-4 text-center">
+                            <a href="/documentation/document.html" class="text-dec text-s  text-color-grey-0">Docs</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            <a href="https://github.com/saketkum11/WebKit-UI.git" class="text-dec text-s   text-color-grey-0">GitHub <i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class=" bg-green-3 pd-6 text-color-grey-0 text-xm border-grey-9 border-top-1" id="menu-navigation">
+        <span >Menu <i class="fa-sharp fa-solid fa-arrow-down"></i></span>
+    </div>
+    <main >
+        <div class="m-auto wt-80 flex flex-wrap  m-y-11" id="wt-70">
+            <aside>
+                <div class="drawer z-index-1  wt-100 " id="drawer">
+                    <div class="flex flex-column items-center justify-center text-gray-8 pd-x-11 ">
+                        <h4 class="m-y-4 ">Get Started </h4>
+                        <a href="/documentation/document.html" class="text-dec text-color-grey-9  pd-y-2">Installation</a>
+                        <h4 class="m-y-4">Components </h4>
+                        <nav>
+                            <ul  class="style-none flex flex-column items-center " >
+                                <li class="m-y-4">
+                                    <a href="/component/Alert/Alert.html" class="text-dec  wt-100 text-left text-color-grey-9  ">Alert</a>
+                                </li>
+                                <li class="pd-y-4">
+                                    <a href="/component/avatar/avatar.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Avatar</a>
+                                </li>
+                            <li class="pd-y-4">
+                                <a href="/component/badges/badge.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Badge</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Button/button.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Button</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Cards/cards.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Card</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/images/image.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Image</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Input/Input.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Input</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Text/text.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Text </a>
+                            </li>
+                            
+                            <li class="pd-y-4">
+                                <a href="/component/Lists/list.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">List</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Navigation/nav.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Navigation</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Modal/modal.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Modal</a>
+        
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Rating/rating.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Rating</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Toast/toast.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">Toast</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Grid/grid.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">Grid</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/slider/slider.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Slider</a>
+                            </li>
+                        </ul>
+                    </nav>
+                   
+                    <div class="cursor wt-100 flex justify-around m-y-6">
+                        <a href="https://github.com/saketkum11" class="text-dec text-color-grey-9"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/saketkum11" class="text-dec text-color-grey-9"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/saketkumar21/" class="text-dec text-color-grey-9"><i
+                                class="fab fa-linkedin-in"></i>
+                            </a>
+                    </div>
                 </div>
-            </div>
-        </aside>
-
-        <div class="content box-shadow-1 wt-80 pd-x-8 pd-y-8 flex flex-column items-start  m-y-9 ">
-            <div class="head m-y-5 ">
-                <h3 class="text-lg text-light">Toast</h3>
-                <small>Toast is message that an app has performed or will perform.</small>
-            </div>
-
-
-            <div class="head ">
-                <span class="text-xm "> Simple Toast</span>
-            </div>
-            <!---Tabs-->
-            <div class="flex items-center m-auto bg-blue-5 position-rel text-color-0 ">
-                <span class="pd-3 cursor">Right</span>
-                <span class="pd-3 cursor">Center</span>
-                <span class="pd-3 cursor">Left</span>
-            </div>
-            <div class="flex wt-100 m-auto justify-around m-y-11">
-                <div
-                    class="flex items-center pd-3 position-ab position-left rounded-s  justify-around wt-20 bg-black-8 text-color-0 ">
-                    <span>Can't send photo.</span>
-                    <span>retry</span>
-
-                    <i class="fas fa-times-circle"></i>
-
-
+              </div>
+            </aside>
+            <section class="flex-1 wt-70 pd-x-11 flex flex-column">
+                <div class="m-y-6">
+                    <h3 class="text-lg text-bold">Toast</h3>
+                          <hr>
+                    <h3 class="m-y-6">Introduction</h3>
+                    <p class="m-t-5">A slider is used  to filter based on price. It gives  control to user so that  they can filter product .Sliders are found  on e-commerc site. </p>
                 </div>
-                <div
-                    class="flex items-center pd-3 position-ab position-center rounded-s justify-around wt-20 bg-black-8 text-color-0">
-                    <span>Can't send photo.</span>
-                    <span>retry</span>
-
-                    <i class="fas fa-times-circle "></i>
-
-
+                <div class="m-y-8">
+                    <span class="m-y-4 text-m text-bold ">Toast</span>
                 </div>
-                <div
-                    class="flex items-center wt-20 pd-3 position-ab position-right rounded-s justify-around  bg-black-8 text-color-0">
-                    <span>Can't send photo.</span>
-                    <span>retry</span>
-
-                    <i class="fas fa-times-circle "></i>
-
-
+                <div class="m-y-1 ">
+                    <span class="m-y-4 text-xm "> <span>
                 </div>
-            </div>
-            <div class=" m-auto m-y-11">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=683.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=26px&ln=false&fl=1&fm=Fira+Code&fs=10.5px&lh=100%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520items-center%2520m-auto%2520bg-blue-5%2520position-rel%2520text-color-0%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522pd-3%2520cursor%2522%253ERight%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522pd-3%2520cursor%2522%253ECenter%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522pd-3%2520cursor%2522%253ELeft%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    style="width: 60rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <div class="m-auto m-y-5">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=665.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=14px&ph=26px&ln=false&fl=1&fm=Fira+Code&fs=10.5px&lh=100%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520wt-100%2520m-auto%2520justify-around%2520m-y-11%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520items-center%2520pd-3%2520position-ab%2520position-left%2520rounded-s%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520justify-around%2520wt-20%2520bg-black-8%2520text-color-0%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ECan%27t%2520send%2520photo.%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253Eretry%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520items-center%2520pd-3%2520position-ab%2520position-center%2520rounded-s%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520justify-around%2520wt-20%2520bg-black-8%2520text-color-0%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ECan%27t%2520send%2520photo.%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253Eretry%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520%2522%253E%253C%252Fi%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520items-center%2520wt-20%2520pd-3%2520position-ab%2520position-right%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rounded-s%2520justify-around%2520%2520bg-black-8%2520text-color-0%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ECan%27t%2520send%2520photo.%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253Eretry%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520%2522%253E%253C%252Fi%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    style="width: 60rem; height: 30rem; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <div>
+                <div class="bg-green-8 m-y-11 width-scaled4-8 pd-y-4 pd-x-4 flex gap-1 justify-center items-center flex-wrap wt-max-100 m-auto">
+                    <button class="pd-3 cursor flex-1 bg-green-5 text-color-grey-0 text-s" id="left_snackbar">Left</button>
+                    <button class="pd-3 cursor flex-1 bg-green-5 text-color-grey-0 text-s" id="center_snackbar">Center</button>
+                    <button class="pd-3 cursor flex-1 bg-green-5 text-color-grey-0 text-s" id="right_snackbar">Right</button>
+                </div>
+                <div class="display-none" id="toast_left">
+                    <div class="flex justify-around items-center pd-3 position-fixed bottom-5 left-5  rounded-s bg-green-8 text-color-grey-0 gap-1">
+                        <span>Can't send photo.Retry in 5 second</span>
+                        <button class="bg-none text-color-grey-0 text-s" id="toast_left"> <i class="fas fa-times-circle"></i></button>
+                    </div>
+                </div>
+                <div class="display-none" id="toast_center">
+                    <div class="flex justify-around items-center pd-3 gap-1 position-fixed bottom-5 left-40  rounded-s bg-green-8 text-color-grey-0 ">
+                        <span>Can't send photo.Retry in 5 second</span>
+                        <button class="bg-none text-color-grey-0 text-s" id="toast_center"><i class="fas fa-times-circle"></i></button>
+                    </div>
+                </div>
+                <div class="display-none" id="toast_right">
+                    <div class="flex justify-around items-center pd-3 position-fixed rounded-s  bottom-5 right-5 bg-green-8 text-color-grey-0 gap-1">
+                        <span>Can't send photo.Retry in 5 second</span>
+                        <button class="bg-none text-color-grey-0 text-s" id="right_center"><i class="fas fa-times-circle"></i></button>
+                    </div>
+                </div>
+                <div class="m-auto wt-80 ">
+                    <h5 class="m-y-5">Code: </h5> 
+                    <iframe src="https://www.thiscodeworks.com/embed/63e8f9ea7d70f40013a48059" style="width: 100%; height: 372px;" frameborder="0"></iframe>
+                    
+                 </div>
+                
+            </section>
+        </div>
     </main>
+    <script src="./toast.js"></script>
+    <script src="/component/default.js"></script>
 </body>
 
 </html>

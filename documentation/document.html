@@ -4,76 +4,131 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d62314cbab.js" crossorigin="anonymous"></script>  
     <title>Documentation</title>
 </head>
 
 <body>
-    <main class="flex container">
-        <aside class="text-color-0">
-            <div class="sidebar flex  flex-column items-start justify-even bg-blue-5 pd-x-6 pd-y-6 ">
-                <h3 class="text-lg text-color-0 m-b-8 text">WebKit-UI
-                </h3>
-                <a href="/documentation/document.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2  m-0">Install
-                    WebKit-UI </a>
-                <a href="/component/Alert/Alert.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2  m-0">Alert</a>
-                <a href="/component/avatar/avatar.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Avatar</a>
-                <a href="/component/badges/badge.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Badge</a>
-                <a href="/component/Button/button.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Button</a>
-                <a href="/component/Cards/cards.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Card</a>
-                <a href="/component/images-P0/image.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Image</a>
-                <a href="/component/Input/Input.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Input</a>
-                <a href="/component/Text/text.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Text
-                    Utilities</a>
-                <a href="/component/Lists/list.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">List</a>
-                <a href="/component/Navigation/nav.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Navigation</a>
-                <a href="/component/Modal/modal.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Modal</a>
-                <a href="/component/Rating/rating.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Rating</a>
-                <a href="/component/Toast/toast.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Toast</a>
-                <a href="/component/Grid/grid.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Grid</a>
-                <a href="/component/slider/slider.html" class="links wt-100 text-color-0 pd-x-4 pd-y-2 ">Slider</a>
 
-                <div class="cursor wt-100 flex justify-around">
-                    <a href="https://github.com/saketkum11" class="links text-color-0"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/saketkum11" class="links text-color-0"><i
-                            class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/saketkumar21/" class="links text-color-0"><i
-                            class="fab fa-linkedin-in"></i></a>
-                </div>
+    <header >
+        <div class=" flex bg-green-3 pd-6 justify-btw items-center ">
+            <div class="flex  gap-1 justify-center items-center text-lg text-bold">
+                <a href="/index.html" class="text-dec text-color-grey-0">WebKit-UI</a>
             </div>
-        </aside>
-
-        <div class="content box-shadow-1 wt-80 pd-x-8 pd-y-8 flex flex-column items-start  m-y-9 ">
-            <div class="head m-y-5 ">
-                <h3 class="text-lg text-light"> Installation Guide</h3>
-                <small>Installing <strong>WebKit-UI</strong> take few sec.</small>
+          
+            <div class=" flex gap-1">
+                <button class="nav-active-btn text-color-grey-0  bg-green-3 text-m" id="nav-button"><i class="fa-solid fa-bars"></i></button>
+                <nav class="nav-active bg-green-3 " id="nav-active">
+                    <button class="text-color-grey-0  bg-green-3 text-m" id="close-button"><i class="fa-solid fa-xmark"></i></button>
+                    <ul class="style-none text-xm gap-1 flex justify-around ">
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            
+                            <a href="/index.html" class="text-dec text-s text-color-grey-0">Home</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s  pd-4 text-center">
+                            <a href="/documentation/document.html" class="text-dec text-s  text-color-grey-0">Docs</a>
+                        </li>
+                        <li class="bg-green-8 rounded-s pd-4 text-center">
+                            <a href="https://github.com/saketkum11/WebKit-UI.git" class="text-dec text-s   text-color-grey-0">GitHub <i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            
-            <div class="m-auto">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=638.2000000476837&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=18px&ph=33px&ln=false&fl=1&fm=Hack&fs=12px&lh=141%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fwebkit%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520ui.netlify.app%252Fstyle.css%2522%253E%250A%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520%250A%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Ffont-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520awesome%252F4.7.0%252Fcss%252Ffont-awesome.min.css%253E"
-                    style="width: 638px; height: 212px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <small class="m-y-11">Example:This way you can Install WebKit-UI.</small>
-
-            <div class="m-auto">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=793.7999980449677&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=18px&ph=33px&ln=false&fl=1&fm=Hack&fs=12px&lh=141%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21DOCTYPE%2520html%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chtml%2520lang%253D%2522en%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chead%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520charset%253D%2522UTF-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520http-equiv%253D%2522X-UA-Compatible%2522%2520content%253D%2522IE%253Dedge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520name%253D%2522viewport%2522%2520content%253D%2522width%253Ddevice-width%252C%2520initial-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520scale%253D1.0%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fwebkit-ui.netlify.app%252Fstyle.css%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Ffont-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520awesome%252F4.7.0%252Fcss%252Ffont-awesome.min.css%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctitle%253EWebKit-UI%253C%252Ftitle%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fhead%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbody%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbody%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fhtml%253E"
-                    style="width: 794px; height: 398px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-
-
-
         </div>
+    </header>
+    <div class=" bg-green-3 pd-6 text-color-grey-0 text-xm border-grey-9 border-top-1" id="menu-navigation">
+        <span >Menu <i class="fa-sharp fa-solid fa-arrow-down"></i></span>
+    </div>
+    <main>
+        <div class="m-auto wt-80 flex flex-wrap  m-y-11" id="wt-70">
+            <aside>
+                <div class="drawer z-index-1  wt-100 " id="drawer">
+                    <div class="flex flex-column items-center justify-center text-gray-8 pd-x-11 ">
+                        <h4 class="m-y-4 ">Get Started </h4>
+                        <a href="/documentation/document.html" class="text-dec text-color-grey-9  pd-y-2">Installation</a>
+                        <h4 class="m-y-4">Components </h4>
+                        <nav>
+                            <ul  class="style-none flex flex-column items-center " >
+                                <li class="m-y-4">
+                                    <a href="/component/Alert/Alert.html" class="text-dec  wt-100 text-left text-color-grey-9  ">Alert</a>
+                                </li>
+                                <li class="pd-y-4">
+                                    <a href="/component/avatar/avatar.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Avatar</a>
+                                </li>
+                            <li class="pd-y-4">
+                                <a href="/component/badges/badge.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Badge</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Button/button.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Button</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Cards/cards.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Card</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/images/image.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Image</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Input/Input.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Input</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Text/text.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Text </a>
+                            </li>
+                            
+                            <li class="pd-y-4">
+                                <a href="/component/Lists/list.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">List</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Navigation/nav.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Navigation</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Modal/modal.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Modal</a>
+        
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Rating/rating.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Rating</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Toast/toast.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">Toast</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/Grid/grid.html" class="text-dec wt-100 text-color-grey-9  pd-y-2 ">Grid</a>
+                            </li>
+                            <li class="pd-y-4">
+                                <a href="/component/slider/slider.html" class="text-dec wt-100 text-color-grey-9  pd-y-2">Slider</a>
+                            </li>
+                        </ul>
+                    </nav>
+                   
+                    <div class="cursor wt-100 flex justify-around m-y-6">
+                        <a href="https://github.com/saketkum11" class="text-dec text-color-grey-9"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/saketkum11" class="text-dec text-color-grey-9"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/saketkumar21/" class="text-dec text-color-grey-9"><i
+                                class="fab fa-linkedin-in"></i>
+                            </a>
+                    </div>
+                </div>
+              </div>
+            </aside>
+            <section class="flex-1 wt-70 pd-x-11 flex flex-column">
+                <div class="m-y-8">
+                    <span class="m-y-4 text-m text-bold ">Install WebKit-UI</span>
+                </div>
+
+                <div class="m-auto wt-80 ">
+                    <h5 class="m-y-5">Code: </h5> 
+                    <iframe src="https://www.thiscodeworks.com/embed/63e91607e6e2c8001339a7de" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                 </div>
+            </section>
+        </div>
+       
+
+       
 
     </main>
+    <script src="/component/default.js"></script>
 </body>
 
 </html>

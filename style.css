@@ -5,7 +5,7 @@
 @import url(/component/Navigation/nav.css);
 @import url(/component/Modal/modal.css);
 @import url(/component/Input/input.css);
-@import url(/component/images-P0/image.css);
+@import url(/component/images/image.css);
 @import url(/component/Grid/grid.css);
 @import url(/component/Text/text.css);
 @import url(/component/Cards/cards.css);
@@ -13,9 +13,9 @@
 @import url(/component/Alert/Alert.css);
 @import url(/component/badges/badge.css);
 @import url(/component/avatar/avatar.css);
-@import url(/component/default.css);
 
 @import url(/utilities-css/colors.css);
 @import url(/utilities-css/spacing.css);
 @import url(/utilities-css/typography.css);
 @import url(/utilities-css/universal.css);
+@import url(/component/default.css);

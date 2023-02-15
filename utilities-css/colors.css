@@ -1,7 +1,7 @@
 :root {
 
     /* Black Color*/
-
+    --overlay-color:rgba(79, 79, 79, 0.788);
     --grey-900: #111827;
     --grey-800: #1F2937;
     --grey-700: #374151;
@@ -105,9 +105,26 @@
     --red-50: #FEF2F2;
 
 }
+.bg-none{
+    background:none;
+}
+.bg-overlay{
+    background-color: var(--overlay-color);
+}
 
-/* green*/ 
-
+/* green*/
+.bg-green-0 {
+    background-color: var(--green-50);
+}
+.bg-green-1 {
+    background-color: var(--green-100);
+}
+.bg-green-2 {
+    background-color: var(--green-200);
+} 
+.bg-green-3 {
+    background-color: var(--green-300);
+}
 .bg-green-4 {
     background-color: var(--green-400);
 }
@@ -126,6 +143,7 @@
 .bg-green-9 {
     background-color: var(--green-900);
 }
+/* pink*/ 
 .bg-pink-0 {
     background-color: var(--pink-50);
 }
@@ -206,6 +224,47 @@
 
 .bg-red-9 {
     background-color: var(--red-900);
+}
+/* violet */ 
+.bg-violet-0 {
+    background-color: var(--violet-50);
+}
+
+.bg-violet-1 {
+    background-color: var(--violet-100);
+}
+
+.bg-violet-2 {
+    background-color: var(--violet-200);
+}
+
+.bg-violet-3 {
+    background-color: var(--violet-300);
+}
+
+.bg-violet-4 {
+    background-color: var(--violet-400);
+}
+
+.bg-violet-5 {
+    background-color: var(--violet-500);
+}
+
+.bg-violet-6 {
+    background-color: var(--violet-600);
+
+}
+
+.bg-violet-7 {
+    background-color: var(--violet-700);
+}
+
+.bg-violet-8 {
+    background-color: var(--violet-800);
+}
+
+.bg-violet-9 {
+    background-color: var(--violet-900);
 }
 /*  purple */
 .bg-purple-0 {
@@ -376,58 +435,244 @@
 
 /* color */
 
-.text-color-0 {
+.text-color-grey-0 {
     color: var(--grey-50);
 }
 
-.text-color-1 {
+.text-color-grey-1 {
     color: var(--grey-100);
 }
 
-.text-color-2 {
+.text-color-grey-2 {
     color: var(--grey-200);
 }
 
-.text-color-3 {
+.text-color-grey-3 {
     color: var(--grey-300);
 }
 
-.text-color-4 {
+.text-color-grey-4 {
     color: var(--grey-400);
 }
 
-.text-color-5 {
+.text-color-grey-5 {
     color: var(--grey500);
 }
 
-.text-color-6 {
+.text-color-grey-6 {
     color: var(--grey-600);
 }
 
-.text-color-7 {
+.text-color-grey-7 {
     color: var(--grey-700);
 }
 
-.text-color-8 {
+.text-color-grey-8 {
     color: var(--grey-800);
 }
 
-.text-color-9 {
+.text-color-grey-9 {
     color: var(--grey-900);
 }
-/* icon color*/ 
-.color-red-5{
-    color: var(--red-500);
+/* text color green */
+
+.text-color-green-0 {
+    color: var(--green-50);
 }
-.color-red-6{
-    color: var(--red-600);
+
+.text-color-green-1 {
+    color: var(--green-100);
 }
-.color-red-7{
-    color: var(--red-700);
+
+.text-color-green-2 {
+    color: var(--green-200);
 }
-.color-green-6{
+
+.text-color-green-3 {
+    color: var(--green-300);
+}
+
+.text-color-green-4 {
+    color: var(--green-400);
+}
+
+.text-color-green-5 {
+    color: var(--green500);
+}
+
+.text-color-green-6 {
     color: var(--green-600);
 }
-.color-brown-5{
+
+.text-color-green-7 {
+    color: var(--green-700);
+}
+
+.text-color-green-8 {
+    color: var(--green-800);
+}
+
+.text-color-green-9 {
+    color: var(--green-900);
+}
+/* icon color*/ 
+.text-color-red-5{
+    color: var(--red-500);
+}
+.text-color-red-6{
+    color: var(--red-600);
+}
+.text-color-red-7{
+    color: var(--red-700);
+}
+.text-color-red-9{
+    color: var(--red-900);
+}
+.text-color-green-6{
+    color: var(--green-600);
+}
+.text-color-brown-5{
     color: var(--brown-500);
+}
+.text-color-brown-9{
+    color: var(--brown-900);
+}
+/* input ascent color */
+.input-green-800{
+    accent-color: var(--green-800);
+}
+.input-blue-800{
+    accent-color: var(--blue-800);
+}
+.input-black-800{
+    accent-color: var(--grey-800);
+}
+.input-pink-800{
+    accent-color: var(--pink-800);
+}
+.input-red-800{
+    accent-color: var(--red-800);
+}
+.input-voilet-800{
+    accent-color: var(--voilet-800);
+}
+.input-brown-800{
+    accent-color: var(--brown-800);
+}
+/* border color black*/ 
+.border-black-900{
+    border-color: var(--grey-900);
+}
+.border-black-800{
+    border-color: var(--grey-800);
+}
+.border-black-700{
+    border-color: var(--grey-700);
+}
+.border-black-600{
+    border-color: var(--grey-600);
+}
+.border-black-500{
+    border-color: var(--grey-500);
+}
+/* border green */
+.border-green-900{
+    border-color: var(--green-900);
+}
+.border-green-800{
+    border-color: var(--green-800);
+}
+.border-green-700{
+    border-color: var(--green-700);
+}
+.border-green-600{
+    border-color: var(--green-600);
+}
+.border-green-500{
+    border-color: var(--green-500);
+}
+/* border red*/
+.border-red-900{
+    border-color: var(--red-900);
+}
+.border-red-800{
+    border-color: var(--red-800);
+}
+.border-red-700{
+    border-color: var(--red-700);
+}
+.border-red-600{
+    border-color: var(--red-600);
+}
+.border-red-500{
+    border-color: var(--red-500);
+}
+/* border violet*/ 
+.border-voilet-900{
+    border-color: var(--voilet-900);
+}
+.border-voilet-800{
+    border-color: var(--voilet-800);
+}
+.border-voilet-700{
+    border-color: var(--voilet-700);
+}
+.border-voilet-600{
+    border-color: var(--voilet-600);
+}
+.border-voilet-500{
+    border-color: var(--voilet-500);
+}
+/* border pink*/ 
+.border-pink-900{
+    border-color: var(--pink-900);
+}
+.border-pink-800{
+    border-color: var(--pink-800);
+}
+.border-pink-700{
+    border-color: var(--pink-700);
+}
+.border-pink-600{
+    border-color: var(--pink-600);
+}
+.border-pink-500{
+    border-color: var(--pink-500);
+}
+/* border brown */
+.border-brown-900{
+    border-color: var(--brown-900);
+}
+.border-brown-800{
+    border-color: var(--brown-800);
+}
+.border-brown-700{
+    border-color: var(--brown-700);
+}
+.border-brown-600{
+    border-color: var(--brown-600);
+}
+.border-brown-500{
+    border-color: var(--brown-500);
+}
+/* border blue */ 
+.border-blue-900{
+    border-color: var(--blue-900);
+}
+.border-blue-800{
+    border-color: var(--blue-800);
+}
+.border-blue-700{
+    border-color: var(--blue-700);
+}
+.border-blue-600{
+    border-color: var(--blue-600);
+}
+.border-blue-500{
+    border-color: var(--blue-500);
+}
+/* hover */ 
+
+.hover-grey-200:hover{
+    background-color: var(--grey-200);
 }
