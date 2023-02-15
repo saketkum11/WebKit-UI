@@ -17,6 +17,8 @@
 
 ## Component Lists
 
+[Alert](webkit-ui.netlify.app/component/Alert/Alert.html)
+
 <br>
 <br>
 <br>
