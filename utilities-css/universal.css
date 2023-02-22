@@ -54,6 +54,7 @@ textarea {
     --height-10: 10rem;
 
     /* width  */
+   
     --width-1: 1rem;
     --width-2: 2rem;
     --width-3: 3rem;
@@ -377,6 +378,37 @@ textarea {
     width: calc(var(--width-10)*4);
 }
 /* width scaled 5 times*/ 
+.wt-max-5{
+    max-width: calc(var(--width-1)*5);
+}
+.wt-max-10{
+  max-width: calc(var(--width-2)*5);
+}
+.wt-max-15{
+  max-width: calc(var(--width-3)*5);
+}
+.wt-max-20{
+  max-width: calc(var(--width-4)*5);
+}
+.wt-max-25{
+  max-width: calc(var(--width-5)*5);
+}
+.wt-max-30{
+  max-width: calc(var(--width-6)*5);
+}
+.wt-max-35{
+  max-width: calc(var(--width-7)*5);
+}
+.wt-max-40{
+  max-width: calc(var(--width-8)*5);
+}
+.wt-max-45{
+  max-width: calc(var(--width-9)*5);
+}
+.wt-max-50{
+    max-width: calc(var(--width-10)*5);
+}
+/* width scaled 5 time*/
 .width-scaled5-1{
     width: calc(var(--width-1)*5);
 }
@@ -407,7 +439,6 @@ textarea {
 .width-scaled5-10{
     width: calc(var(--width-10)*5);
 }
-
 /* width */
 
 .wt-20{
@@ -655,7 +686,7 @@ textarea {
     top: var(--percentage--50);
 }
 .top--30{
-    top: -100%;
+    top: var(--percentage--30);
 }
 .top-0{
     top: var(--percentage-0);
